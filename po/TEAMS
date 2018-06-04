@@ -33,6 +33,10 @@ Repository:	https://github.com/quizzlo/git-po-it/
 Leader:		Marco Paolone <marcopaolone AT gmail.com>
 Members:	Stefano Lattarini <stefano.lattarini AT gmail.com>
 
+Language:	ja (Japanese)
+Repository:	https://github.com/sina-ht/git-po/
+Leader:		Hiroshi Takekawa <sian AT big.or.jp>
+
 Language:	ko (Korean)
 Repository:	https://github.com/git-l10n-ko/git-l10n-ko/
 Leader:		Changwoo Ryu <cwryu@debian.org>

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2018-05-31 23:32+0800\n"
-"PO-Revision-Date: 2018-06-04 22:26+0900\n"
+"PO-Revision-Date: 2018-06-08 22:23+0900\n"
 "Last-Translator: Hiroshi Takekawa <sian@big.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -20,54 +20,54 @@ msgstr ""
 #: advice.c:92
 #, c-format
 msgid "%shint: %.*s%s\n"
-msgstr ""
+msgstr "%sヒント: %.*s%s\n"
 
 #: advice.c:137
 msgid "Cherry-picking is not possible because you have unmerged files."
-msgstr ""
+msgstr "マージされていないファイルがあるため cherry-pick できません。"
 
 #: advice.c:139
 msgid "Committing is not possible because you have unmerged files."
-msgstr ""
+msgstr "マージされていないファイルがあるため commit できません。"
 
 #: advice.c:141
 msgid "Merging is not possible because you have unmerged files."
-msgstr ""
+msgstr "マージされていないファイルがあるため merge できません。"
 
 #: advice.c:143
 msgid "Pulling is not possible because you have unmerged files."
-msgstr ""
+msgstr "マージされていないファイルがあるため pull できません。"
 
 #: advice.c:145
 msgid "Reverting is not possible because you have unmerged files."
-msgstr ""
+msgstr "マージされていないファイルがあるため revert できません。"
 
 #: advice.c:147
 #, c-format
 msgid "It is not possible to %s because you have unmerged files."
-msgstr ""
+msgstr "マージされていないファイルがあるため %s できません。"
 
 #: advice.c:155
 msgid ""
 "Fix them up in the work tree, and then use 'git add/rm <file>'\n"
 "as appropriate to mark resolution and make a commit."
-msgstr ""
+msgstr "ワークツリーの問題を解決し、解決したファイルについて 'git add/rm <file>' でマークし、コミットしてください。"
 
 #: advice.c:163
 msgid "Exiting because of an unresolved conflict."
-msgstr ""
+msgstr "未解決のコンフリクトのため終了します。"
 
 #: advice.c:168 builtin/merge.c:1249
 msgid "You have not concluded your merge (MERGE_HEAD exists)."
-msgstr ""
+msgstr "マージが完了していません (MERGE_HEAD が存在します)。"
 
 #: advice.c:170
 msgid "Please, commit your changes before merging."
-msgstr ""
+msgstr "マージする前に自分で行った変更をコミットしておいてください。(訳注: マージを一旦中止するには git merge --abort が使えます。git stash して自分の変更を保存後、git pull して git stash pop するとアップストリームを更新し、自分の変更を適用しなおせます)"
 
 #: advice.c:171
 msgid "Exiting because of unfinished merge."
-msgstr ""
+msgstr "マージが完了していないため終了します。"
 
 #: advice.c:177
 #, c-format
@@ -84,91 +84,102 @@ msgid ""
 "  git checkout -b <new-branch-name>\n"
 "\n"
 msgstr ""
+"注意: '%s' を checkout します。\n"
+"\n"
+"いわゆる 'detached HEAD' 状態になります。ツリーを見ることができますし、\n"
+"実験的な修正をしてコミットすることもできますが、他のブランチに影響を与えません。\n"
+"他のブランチを checkout することで、これらのコミットを破棄することができます。\n"
+"\n"
+"この状態で作ったコミットを元にブランチを作ることもできます。\n"
+"checkout コマンドの -b オプションが使えます。例えば以下のようにしてください:\n"
+"\n"
+"  git checkout -b <new-branch-name>\n"
+"\n"
 
 #: apply.c:58
 #, c-format
 msgid "unrecognized whitespace option '%s'"
-msgstr ""
+msgstr "空白についてのオプション '%s' が認識できません"
 
 #: apply.c:74
 #, c-format
 msgid "unrecognized whitespace ignore option '%s'"
-msgstr ""
+msgstr "空白の無視についてのオプション '%s' が認識できません"
 
 #: apply.c:122
 msgid "--reject and --3way cannot be used together."
-msgstr ""
+msgstr "--reject と --3way は同時に使えません。"
 
 #: apply.c:124
 msgid "--cached and --3way cannot be used together."
-msgstr ""
+msgstr "--cached と --3way は同時に使えません。"
 
 #: apply.c:127
 msgid "--3way outside a repository"
-msgstr ""
+msgstr "--3way はレポジトリの外では使えません"
 
 #: apply.c:138
 msgid "--index outside a repository"
-msgstr ""
+msgstr "--index はレポジトリの外では使えません"
 
 #: apply.c:141
 msgid "--cached outside a repository"
-msgstr ""
+msgstr "--cached はレポジトリの外では使えません"
 
 #: apply.c:821
 #, c-format
 msgid "Cannot prepare timestamp regexp %s"
-msgstr ""
+msgstr "タイムスタンプの正規表現 %s のための準備ができませんでした"
 
 #: apply.c:830
 #, c-format
 msgid "regexec returned %d for input: %s"
-msgstr ""
+msgstr "入力に対する正規表現のマッチング中にエラー %d がありました: %s"
 
 #: apply.c:904
 #, c-format
 msgid "unable to find filename in patch at line %d"
-msgstr ""
+msgstr "パッチの %d 行目にファイル名が見つかりませんでした"
 
 #: apply.c:942
 #, c-format
 msgid "git apply: bad git-diff - expected /dev/null, got %s on line %d"
-msgstr ""
+msgstr "git apply: git-diff の出力が不正です - /dev/null があるべきところに %s が %d 行目にあります"
 
 #: apply.c:948
 #, c-format
 msgid "git apply: bad git-diff - inconsistent new filename on line %d"
-msgstr ""
+msgstr "git apply: git-diff の出力が不正です - %d 行目の新ファイル名が矛盾しています"
 
 #: apply.c:949
 #, c-format
 msgid "git apply: bad git-diff - inconsistent old filename on line %d"
-msgstr ""
+msgstr "git apply: git-diff の出力が不正です - %d 行目の旧ファイル名が矛盾しています"
 
 #: apply.c:954
 #, c-format
 msgid "git apply: bad git-diff - expected /dev/null on line %d"
-msgstr ""
+msgstr "git apply: git-diff の出力が不正です - %d 行目に /dev/null があるべきです"
 
 #: apply.c:983
 #, c-format
 msgid "invalid mode on line %d: %s"
-msgstr ""
+msgstr "%d 行目のモードが不正です: %s"
 
 #: apply.c:1301
 #, c-format
 msgid "inconsistent header lines %d and %d"
-msgstr ""
+msgstr "%d 行目と %d 行目が矛盾しています"
 
 #: apply.c:1473
 #, c-format
 msgid "recount: unexpected line: %.*s"
-msgstr ""
+msgstr "recount 処理中に予期しない行がありました: %.*s"
 
 #: apply.c:1542
 #, c-format
 msgid "patch fragment without header at line %d: %.*s"
-msgstr ""
+msgstr "%d 行目にヘッダのない部分パッチがあります: %.*s"
 
 #: apply.c:1562
 #, c-format
@@ -178,20 +189,20 @@ msgid ""
 msgid_plural ""
 "git diff header lacks filename information when removing %d leading pathname "
 "components (line %d)"
-msgstr[0] ""
+msgstr[0] "git diff ヘッダが %d 個の先行パスの削除のためのファイル名情報を欠いています (%d 行目)"
 
 #: apply.c:1575
 #, c-format
 msgid "git diff header lacks filename information (line %d)"
-msgstr ""
+msgstr "git diff ヘッダがファイル名情報を欠いています (%d 行目)"
 
 #: apply.c:1763
 msgid "new file depends on old contents"
-msgstr ""
+msgstr "新ファイルは旧ファイルの内容に依拠しています"
 
 #: apply.c:1765
 msgid "deleted file still has contents"
-msgstr ""
+msgstr "削除されるファイルにまだ内容があります"
 
 #: apply.c:1799
 #, c-format

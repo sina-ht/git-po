@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2018-05-31 23:32+0800\n"
-"PO-Revision-Date: 2018-06-08 22:23+0900\n"
+"PO-Revision-Date: 2018-06-10 00:38+0900\n"
 "Last-Translator: Hiroshi Takekawa <sian@big.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -198,7 +198,7 @@ msgstr "git diff ヘッダがファイル名情報を欠いています (%d 行�
 
 #: apply.c:1763
 msgid "new file depends on old contents"
-msgstr "新ファイルは旧ファイルの内容に依拠しています"
+msgstr "新ファイルは古い内容に依拠しています"
 
 #: apply.c:1765
 msgid "deleted file still has contents"
@@ -207,63 +207,63 @@ msgstr "削除されるファイルにまだ内容があります"
 #: apply.c:1799
 #, c-format
 msgid "corrupt patch at line %d"
-msgstr ""
+msgstr "%d 行目でパッチが壊れています"
 
 #: apply.c:1836
 #, c-format
 msgid "new file %s depends on old contents"
-msgstr ""
+msgstr "新ファイル %s は古い内容に依拠しています"
 
 #: apply.c:1838
 #, c-format
 msgid "deleted file %s still has contents"
-msgstr ""
+msgstr "削除されるファイル %s にまだ内容があります"
 
 #: apply.c:1841
 #, c-format
 msgid "** warning: file %s becomes empty but is not deleted"
-msgstr ""
+msgstr "** 警告: ファイル %s は空になりましたが削除されませんでした"
 
 #: apply.c:1988
 #, c-format
 msgid "corrupt binary patch at line %d: %.*s"
-msgstr ""
+msgstr "%d 行目に壊れたバイナリパッチがあります: %.*s"
 
 #: apply.c:2025
 #, c-format
 msgid "unrecognized binary patch at line %d"
-msgstr ""
+msgstr "%d 行目に認識できないバイナリパッチがあります"
 
 #: apply.c:2185
 #, c-format
 msgid "patch with only garbage at line %d"
-msgstr ""
+msgstr "%d 行目にゴミがあります"
 
 #: apply.c:2271
 #, c-format
 msgid "unable to read symlink %s"
-msgstr ""
+msgstr "symlink %s が読めません"
 
 #: apply.c:2275
 #, c-format
 msgid "unable to open or read %s"
-msgstr ""
+msgstr "%s がオープンまたは読み込みできません"
 
 #: apply.c:2934
 #, c-format
 msgid "invalid start of line: '%c'"
-msgstr ""
+msgstr "不正な行頭です: '%c'"
 
 #: apply.c:3055
 #, c-format
 msgid "Hunk #%d succeeded at %d (offset %d line)."
 msgid_plural "Hunk #%d succeeded at %d (offset %d lines)."
-msgstr[0] ""
+msgstr[0] "Hunk #%d の適用は %d 行目に適用されました (オフセットが %d 行あります)。"
 
 #: apply.c:3067
 #, c-format
 msgid "Context reduced to (%ld/%ld) to apply fragment at %d"
-msgstr ""
+msgstr "コンテキストを (%ld/%ld) に減らして %d の部分パッチを適用しました"
 
 #: apply.c:3073
 #, c-format
@@ -271,115 +271,117 @@ msgid ""
 "while searching for:\n"
 "%.*s"
 msgstr ""
+"以下を検索中に:\n"
+"%.*s"
 
 #: apply.c:3095
 #, c-format
 msgid "missing binary patch data for '%s'"
-msgstr ""
+msgstr "'%s' に対するバイナリパッチデータがありません"
 
 #: apply.c:3103
 #, c-format
 msgid "cannot reverse-apply a binary patch without the reverse hunk to '%s'"
-msgstr ""
+msgstr "バイナリパッチの逆適用には '%s' に対する逆 hunk が必要です"
 
 #: apply.c:3149
 #, c-format
 msgid "cannot apply binary patch to '%s' without full index line"
-msgstr ""
+msgstr "'%s' にバイナリパッチを適用するにはフルインデックスが必要です"
 
 #: apply.c:3159
 #, c-format
 msgid ""
 "the patch applies to '%s' (%s), which does not match the current contents."
-msgstr ""
+msgstr "'%s' (%s) に対するパッチは現状の内容に合っていません。"
 
 #: apply.c:3167
 #, c-format
 msgid "the patch applies to an empty '%s' but it is not empty"
-msgstr ""
+msgstr "'%s' に対するパッチは空のファイルに対するものですが、実際には空ではありません"
 
 #: apply.c:3185
 #, c-format
 msgid "the necessary postimage %s for '%s' cannot be read"
-msgstr ""
+msgstr "適用後のファイル(%s) '%s' が読みこめません"
 
 #: apply.c:3198
 #, c-format
 msgid "binary patch does not apply to '%s'"
-msgstr ""
+msgstr "'%s' に対するバイナリパッチが適用できません"
 
 #: apply.c:3204
 #, c-format
 msgid "binary patch to '%s' creates incorrect result (expecting %s, got %s)"
-msgstr ""
+msgstr "'%s' に対するバイナリパッチを適用した結果が間違っています(%s であるべきが, %s になっています)"
 
 #: apply.c:3225
 #, c-format
 msgid "patch failed: %s:%ld"
-msgstr ""
+msgstr "パッチの適用に失敗しました: %s:%ld"
 
 #: apply.c:3347
 #, c-format
 msgid "cannot checkout %s"
-msgstr ""
+msgstr "%s を checkout できません"
 
 #: apply.c:3396 apply.c:3407 apply.c:3453 setup.c:278
 #, c-format
 msgid "failed to read %s"
-msgstr ""
+msgstr "%s の読み込みに失敗しました"
 
 #: apply.c:3404
 #, c-format
 msgid "reading from '%s' beyond a symbolic link"
-msgstr ""
+msgstr "'%s' を symlink を越えて読みこみました"
 
 #: apply.c:3433 apply.c:3673
 #, c-format
 msgid "path %s has been renamed/deleted"
-msgstr ""
+msgstr "パス %s はリネームもしくは削除されました"
 
 #: apply.c:3516 apply.c:3687
 #, c-format
 msgid "%s: does not exist in index"
-msgstr ""
+msgstr "%s: index にありません"
 
 #: apply.c:3525 apply.c:3695
 #, c-format
 msgid "%s: does not match index"
-msgstr ""
+msgstr "%s: index が一致しません"
 
 #: apply.c:3560
 msgid "repository lacks the necessary blob to fall back on 3-way merge."
-msgstr ""
+msgstr "レポジトリに 3-way マージにフォールバックするための blob がありません。"
 
 #: apply.c:3563
 #, c-format
 msgid "Falling back to three-way merge...\n"
-msgstr ""
+msgstr "3-way マージにフォールバックします…\n"
 
 #: apply.c:3579 apply.c:3583
 #, c-format
 msgid "cannot read the current contents of '%s'"
-msgstr ""
+msgstr "現在の内容を '%s' から読み込めません"
 
 #: apply.c:3595
 #, c-format
 msgid "Failed to fall back on three-way merge...\n"
-msgstr ""
+msgstr "3-way マージにフォールバックできませんでした…\n"
 
 #: apply.c:3609
 #, c-format
 msgid "Applied patch to '%s' with conflicts.\n"
-msgstr ""
+msgstr "'%s' にパッチを適用してコンフリクトが発生しました。\n"
 
 #: apply.c:3614
 #, c-format
 msgid "Applied patch to '%s' cleanly.\n"
-msgstr ""
+msgstr "'%s' に対するパッチが正常に適用できました。\n"
 
 #: apply.c:3640
 msgid "removal patch leaves file contents"
-msgstr ""
+msgstr "削除するパッチを適応したのにファイルが残っています"
 
 #: apply.c:3712
 #, c-format

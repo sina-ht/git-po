@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2018-05-31 23:32+0800\n"
-"PO-Revision-Date: 2018-06-10 00:38+0900\n"
+"PO-Revision-Date: 2018-06-10 20:38+0900\n"
 "Last-Translator: Hiroshi Takekawa <sian@big.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -386,175 +386,175 @@ msgstr "削除するパッチを適応したのにファイルが残っていま
 #: apply.c:3712
 #, c-format
 msgid "%s: wrong type"
-msgstr ""
+msgstr "%s: モードが間違っています"
 
 #: apply.c:3714
 #, c-format
 msgid "%s has type %o, expected %o"
-msgstr ""
+msgstr "%s のモードは %o ですが %o であるべきです"
 
 #: apply.c:3864 apply.c:3866
 #, c-format
 msgid "invalid path '%s'"
-msgstr ""
+msgstr "'%s' が不正なパスです"
 
 #: apply.c:3922
 #, c-format
 msgid "%s: already exists in index"
-msgstr ""
+msgstr "%s: は既に index に存在します"
 
 #: apply.c:3925
 #, c-format
 msgid "%s: already exists in working directory"
-msgstr ""
+msgstr "%s: ワーキングディレクトリに既に存在しています"
 
 #: apply.c:3945
 #, c-format
 msgid "new mode (%o) of %s does not match old mode (%o)"
-msgstr ""
+msgstr "新モード (%o) %s は旧モード(%o) と一致しません"
 
 #: apply.c:3950
 #, c-format
 msgid "new mode (%o) of %s does not match old mode (%o) of %s"
-msgstr ""
+msgstr "新モード (%o) of %s は旧モード (%o) %s に一致しません"
 
 #: apply.c:3970
 #, c-format
 msgid "affected file '%s' is beyond a symbolic link"
-msgstr ""
+msgstr "影響を受けるファイル '%s' は symlink 越しです"
 
 #: apply.c:3974
 #, c-format
 msgid "%s: patch does not apply"
-msgstr ""
+msgstr "%s: パッチが適用できません"
 
 #: apply.c:3989
 #, c-format
 msgid "Checking patch %s..."
-msgstr ""
+msgstr "パッチ %s を確認しています…"
 
 #: apply.c:4080
 #, c-format
 msgid "sha1 information is lacking or useless for submodule %s"
-msgstr ""
+msgstr "サブモジュール %s の SHA1 情報がないか使えません"
 
 #: apply.c:4087
 #, c-format
 msgid "mode change for %s, which is not in current HEAD"
-msgstr ""
+msgstr "%s のモードを変更しようとしていますが、現在の HEAD にはありません"
 
 #: apply.c:4090
 #, c-format
 msgid "sha1 information is lacking or useless (%s)."
-msgstr ""
+msgstr "SHA1 情報がないか使えません (%s)。"
 
 #: apply.c:4095 builtin/checkout.c:235 builtin/reset.c:140
 #, c-format
 msgid "make_cache_entry failed for path '%s'"
-msgstr ""
+msgstr "パス '%s' に対する make_cache_entry() が失敗しました"
 
 #: apply.c:4099
 #, c-format
 msgid "could not add %s to temporary index"
-msgstr ""
+msgstr "%s を index に追加できませんでした"
 
 #: apply.c:4109
 #, c-format
 msgid "could not write temporary index to %s"
-msgstr ""
+msgstr "%s に index を書き込めませんでした"
 
 #: apply.c:4247
 #, c-format
 msgid "unable to remove %s from index"
-msgstr ""
+msgstr "%s を index から削除できませんでした"
 
 #: apply.c:4282
 #, c-format
 msgid "corrupt patch for submodule %s"
-msgstr ""
+msgstr "サブモジュール %s に対するパッチが壊れています"
 
 #: apply.c:4288
 #, c-format
 msgid "unable to stat newly created file '%s'"
-msgstr ""
+msgstr "新しく作成したファイル '%s' の stat() に失敗しました"
 
 #: apply.c:4296
 #, c-format
 msgid "unable to create backing store for newly created file %s"
-msgstr ""
+msgstr "新しく作成したファイル %s の保存先(backing store)が作れませんでした"
 
 #: apply.c:4302 apply.c:4446
 #, c-format
 msgid "unable to add cache entry for %s"
-msgstr ""
+msgstr "%s に対する add_cache_entry() に失敗しました"
 
 #: apply.c:4343
 #, c-format
 msgid "failed to write to '%s'"
-msgstr ""
+msgstr "'%s' への書き込みに失敗しました"
 
 #: apply.c:4347
 #, c-format
 msgid "closing file '%s'"
-msgstr ""
+msgstr "ファイル '%s' のクローズに失敗しました"
 
 #: apply.c:4417
 #, c-format
 msgid "unable to write file '%s' mode %o"
-msgstr ""
+msgstr "'%s (モード %o)に書き込みできません"
 
 #: apply.c:4515
 #, c-format
 msgid "Applied patch %s cleanly."
-msgstr ""
+msgstr "パッチ %s を適用できました。"
 
 #: apply.c:4523
 msgid "internal error"
-msgstr ""
+msgstr "内部エラーです"
 
 #: apply.c:4526
 #, c-format
 msgid "Applying patch %%s with %d reject..."
 msgid_plural "Applying patch %%s with %d rejects..."
-msgstr[0] ""
+msgstr[0] "パッチ %%s を適用して %d 個のリジェクト…"
 
 #: apply.c:4537
 #, c-format
 msgid "truncating .rej filename to %.*s.rej"
-msgstr ""
+msgstr ".rej ファイルのファイル名を %.*s.rej に短縮しました"
 
 #: apply.c:4545 builtin/fetch.c:786 builtin/fetch.c:1036
 #, c-format
 msgid "cannot open %s"
-msgstr ""
+msgstr "%s がオープンできません"
 
 #: apply.c:4559
 #, c-format
 msgid "Hunk #%d applied cleanly."
-msgstr ""
+msgstr "Hunk #%d を適用しました。"
 
 #: apply.c:4563
 #, c-format
 msgid "Rejected hunk #%d."
-msgstr ""
+msgstr "hunk #%d をリジェクトしました。"
 
 #: apply.c:4673
 #, c-format
 msgid "Skipped patch '%s'."
-msgstr ""
+msgstr "パッチ '%s' をスキップしました。"
 
 #: apply.c:4681
 msgid "unrecognized input"
-msgstr ""
+msgstr "入力が認識できません"
 
 #: apply.c:4700
 msgid "unable to read index file"
-msgstr ""
+msgstr "index ファイルを読み込めません"
 
 #: apply.c:4837
 #, c-format
 msgid "can't open patch '%s': %s"
-msgstr ""
+msgstr "パッチ '%s' がオープンできません: %s"
 
 #: apply.c:4864
 #, c-format

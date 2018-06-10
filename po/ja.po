@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2018-05-31 23:32+0800\n"
-"PO-Revision-Date: 2018-06-10 21:34+0900\n"
+"PO-Revision-Date: 2018-06-10 21:55+0900\n"
 "Last-Translator: Hiroshi Takekawa <sian@big.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -727,23 +727,23 @@ msgstr "git archive --remote <レポジトリ> [--exec <コマンド>] --list"
 #: archive.c:351 builtin/add.c:176 builtin/add.c:514 builtin/rm.c:298
 #, c-format
 msgid "pathspec '%s' did not match any files"
-msgstr ""
+msgstr "pathspec '%s' マッチするファイルがありません"
 
 #: archive.c:436
 msgid "fmt"
-msgstr ""
+msgstr "フォーマット"
 
 #: archive.c:436
 msgid "archive format"
-msgstr ""
+msgstr "アーカイブ形式"
 
 #: archive.c:437 builtin/log.c:1462
 msgid "prefix"
-msgstr ""
+msgstr "プレフィックス"
 
 #: archive.c:438
 msgid "prepend prefix to each pathname in the archive"
-msgstr ""
+msgstr "アーカイブのパス名それぞれにプレフィックスを前に付加します"
 
 #: archive.c:439 builtin/blame.c:813 builtin/blame.c:814 builtin/config.c:127
 #: builtin/fast-export.c:1007 builtin/fast-export.c:1009 builtin/grep.c:869
@@ -751,79 +751,79 @@ msgstr ""
 #: builtin/notes.c:405 builtin/notes.c:568 builtin/read-tree.c:119
 #: parse-options.h:165
 msgid "file"
-msgstr ""
+msgstr "ファイル"
 
 #: archive.c:440 builtin/archive.c:89
 msgid "write the archive to this file"
-msgstr ""
+msgstr "指定したファイルにアーカイブを書き出します"
 
 #: archive.c:442
 msgid "read .gitattributes in working directory"
-msgstr ""
+msgstr "ワーキングディレクトリの .gitattributes を読み込みます"
 
 #: archive.c:443
 msgid "report archived files on stderr"
-msgstr ""
+msgstr "アーカイブの進捗を標準エラーに出力します"
 
 #: archive.c:444
 msgid "store only"
-msgstr ""
+msgstr "圧縮なし"
 
 #: archive.c:445
 msgid "compress faster"
-msgstr ""
+msgstr "速い圧縮"
 
 #: archive.c:453
 msgid "compress better"
-msgstr ""
+msgstr "圧縮率優先"
 
 #: archive.c:456
 msgid "list supported archive formats"
-msgstr ""
+msgstr "サポートしているアーカイブ方式を表示"
 
 #: archive.c:458 builtin/archive.c:90 builtin/clone.c:110 builtin/clone.c:113
 #: builtin/submodule--helper.c:1222 builtin/submodule--helper.c:1593
 msgid "repo"
-msgstr ""
+msgstr "レポジトリ"
 
 #: archive.c:459 builtin/archive.c:91
 msgid "retrieve the archive from remote repository <repo>"
-msgstr ""
+msgstr "リモートレポジトリ <レポジトリ> からアーカイブを取得します"
 
 #: archive.c:460 builtin/archive.c:92 builtin/notes.c:489
 msgid "command"
-msgstr ""
+msgstr "コマンド"
 
 #: archive.c:461 builtin/archive.c:93
 msgid "path to the remote git-upload-archive command"
-msgstr ""
+msgstr "リモートの git-upload-archive へのパスを指定します"
 
 #: archive.c:468
 msgid "Unexpected option --remote"
-msgstr ""
+msgstr "予期しない --remote オプションです"
 
 #: archive.c:470
 msgid "Option --exec can only be used together with --remote"
-msgstr ""
+msgstr "オプション --exec は --remote と一緒にしか使えません"
 
 #: archive.c:472
 msgid "Unexpected option --output"
-msgstr ""
+msgstr "予期しないオプション --output です"
 
 #: archive.c:494
 #, c-format
 msgid "Unknown archive format '%s'"
-msgstr ""
+msgstr "'%s' は未知のアーカイブ形式です"
 
 #: archive.c:501
 #, c-format
 msgid "Argument not supported for format '%s': -%d"
-msgstr ""
+msgstr "この引数は '%s' 形式ではサポートされていません: -%d"
 
 #: attr.c:218
 #, c-format
 msgid "%.*s is not a valid attribute name"
-msgstr ""
+msgstr "%.*s は不正な属性名です"
 
 #: attr.c:415
 msgid ""

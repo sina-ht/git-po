@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2018-05-31 23:32+0800\n"
-"PO-Revision-Date: 2018-06-10 20:38+0900\n"
+"PO-Revision-Date: 2018-06-10 21:34+0900\n"
 "Last-Translator: Hiroshi Takekawa <sian@big.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -560,23 +560,23 @@ msgstr "パッチ '%s' がオープンできません: %s"
 #, c-format
 msgid "squelched %d whitespace error"
 msgid_plural "squelched %d whitespace errors"
-msgstr[0] ""
+msgstr[0] "%d 個の空白についてのエラーを抑止しました"
 
 #: apply.c:4870 apply.c:4885
 #, c-format
 msgid "%d line adds whitespace errors."
 msgid_plural "%d lines add whitespace errors."
-msgstr[0] ""
+msgstr[0] "%d 行に空白エラーがあります。"
 
 #: apply.c:4878
 #, c-format
 msgid "%d line applied after fixing whitespace errors."
 msgid_plural "%d lines applied after fixing whitespace errors."
-msgstr[0] ""
+msgstr[0] "%d 行について空白エラーを修正して適用しました。"
 
 #: apply.c:4894 builtin/add.c:538 builtin/mv.c:300 builtin/rm.c:389
 msgid "Unable to write new index file"
-msgstr ""
+msgstr "新しい index ファイルに書き込めません"
 
 #: apply.c:4921 apply.c:4924 builtin/am.c:2254 builtin/am.c:2257
 #: builtin/clone.c:120 builtin/fetch.c:126 builtin/pull.c:198
@@ -585,144 +585,144 @@ msgstr ""
 #: builtin/submodule--helper.c:1587 builtin/submodule--helper.c:1807
 #: git-add--interactive.perl:197
 msgid "path"
-msgstr ""
+msgstr "パス"
 
 #: apply.c:4922
 msgid "don't apply changes matching the given path"
-msgstr ""
+msgstr "与えられたパスにマッチする変更を適用しません"
 
 #: apply.c:4925
 msgid "apply changes matching the given path"
-msgstr ""
+msgstr "与えられたパスにマッチする変更を適用します"
 
 #: apply.c:4927 builtin/am.c:2263
 msgid "num"
-msgstr ""
+msgstr "数"
 
 #: apply.c:4928
 msgid "remove <num> leading slashes from traditional diff paths"
-msgstr ""
+msgstr "diff のパスのスラッシュで区切られた構成要素を <数> 個削除します(訳注: path/to/file -> file (<数> = 2))"
 
 #: apply.c:4931
 msgid "ignore additions made by the patch"
-msgstr ""
+msgstr "パッチによるファイルの追加を無視します"
 
 #: apply.c:4933
 msgid "instead of applying the patch, output diffstat for the input"
-msgstr ""
+msgstr "パッチを適用する代わりに入力に対する diffstat を出力します"
 
 #: apply.c:4937
 msgid "show number of added and deleted lines in decimal notation"
-msgstr ""
+msgstr "追加・削除した行を十進表記で表示します"
 
 #: apply.c:4939
 msgid "instead of applying the patch, output a summary for the input"
-msgstr ""
+msgstr "パッチを適用する代わりに入力に対するサマリを表示します"
 
 #: apply.c:4941
 msgid "instead of applying the patch, see if the patch is applicable"
-msgstr ""
+msgstr "パッチを実際には適用せずに適用可能か表示します"
 
 #: apply.c:4943
 msgid "make sure the patch is applicable to the current index"
-msgstr ""
+msgstr "現在の index に対してパッチが適用可能か確認します"
 
 #: apply.c:4945
 msgid "apply a patch without touching the working tree"
-msgstr ""
+msgstr "ワーキングツリーを修正せず index に直接パッチを適用します"
 
 #: apply.c:4947
 msgid "accept a patch that touches outside the working area"
-msgstr ""
+msgstr "ワーキングエリア外のファイルを修正するパッチを受け入れます"
 
 #: apply.c:4950
 msgid "also apply the patch (use with --stat/--summary/--check)"
-msgstr ""
+msgstr "--stat/--summary/--check で適用しないことにしたパッチを適用します"
 
 #: apply.c:4952
 msgid "attempt three-way merge if a patch does not apply"
-msgstr ""
+msgstr "パッチが適用できない時に 3-way マージを試みます"
 
 #: apply.c:4954
 msgid "build a temporary index based on embedded index information"
-msgstr ""
+msgstr "パッチに埋めこまれた index 情報から一時的な index を生成します"
 
 #: apply.c:4957 builtin/checkout-index.c:168 builtin/ls-files.c:515
 msgid "paths are separated with NUL character"
-msgstr ""
+msgstr "パスの区切りを NUL 文字にします"
 
 #: apply.c:4959
 msgid "ensure at least <n> lines of context match"
-msgstr ""
+msgstr "最低でも <n> 行のコンテキストマッチを必要とします"
 
 #: apply.c:4960 builtin/am.c:2242 builtin/interpret-trailers.c:95
 #: builtin/interpret-trailers.c:97 builtin/interpret-trailers.c:99
 #: builtin/pack-objects.c:3177
 msgid "action"
-msgstr ""
+msgstr "アクション"
 
 #: apply.c:4961
 msgid "detect new or modified lines that have whitespace errors"
-msgstr ""
+msgstr "新規か修正された行の空白エラーを検出します"
 
 #: apply.c:4964 apply.c:4967
 msgid "ignore changes in whitespace when finding context"
-msgstr ""
+msgstr "コンテキストを探すのに空白の変更を無視します"
 
 #: apply.c:4970
 msgid "apply the patch in reverse"
-msgstr ""
+msgstr "パッチを逆に適用します"
 
 #: apply.c:4972
 msgid "don't expect at least one line of context"
-msgstr ""
+msgstr "コンテキストマッチを必要としません (訳注 --unified=0 で生成された diff 向け)"
 
 #: apply.c:4974
 msgid "leave the rejected hunks in corresponding *.rej files"
-msgstr ""
+msgstr "*.rej ファイルにリジェクトした hunk を残します"
 
 #: apply.c:4976
 msgid "allow overlapping hunks"
-msgstr ""
+msgstr "オーバーラップする hunk を許容します"
 
 #: apply.c:4977 builtin/add.c:290 builtin/check-ignore.c:21
 #: builtin/commit.c:1301 builtin/count-objects.c:98 builtin/fsck.c:666
 #: builtin/log.c:1901 builtin/mv.c:122 builtin/read-tree.c:124
 msgid "be verbose"
-msgstr ""
+msgstr "冗長な出力をします"
 
 #: apply.c:4979
 msgid "tolerate incorrectly detected missing new-line at the end of file"
-msgstr ""
+msgstr "ファイルの最後の改行の誤検出に寛容になります"
 
 #: apply.c:4982
 msgid "do not trust the line counts in the hunk headers"
-msgstr ""
+msgstr "hunk ヘッダにある行数を信用せず計算しなおします"
 
 #: apply.c:4984 builtin/am.c:2251
 msgid "root"
-msgstr ""
+msgstr "ルート"
 
 #: apply.c:4985
 msgid "prepend <root> to all filenames"
-msgstr ""
+msgstr "<ルート> を全てのファイル名の前に付加します"
 
 #: archive.c:13
 msgid "git archive [<options>] <tree-ish> [<path>...]"
-msgstr ""
+msgstr "git archive [<オプション>] <tree-ish> [<パス>...]"
 
 #: archive.c:14
 msgid "git archive --list"
-msgstr ""
+msgstr "git archive --list"
 
 #: archive.c:15
 msgid ""
 "git archive --remote <repo> [--exec <cmd>] [<options>] <tree-ish> [<path>...]"
-msgstr ""
+msgstr "git archive --remote <レポジトリ> [--exec <コマンド>] [<オプション>] <tree-ish> [<パス>...]"
 
 #: archive.c:16
 msgid "git archive --remote <repo> [--exec <cmd>] --list"
-msgstr ""
+msgstr "git archive --remote <レポジトリ> [--exec <コマンド>] --list"
 
 #: archive.c:351 builtin/add.c:176 builtin/add.c:514 builtin/rm.c:298
 #, c-format

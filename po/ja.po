@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2018-05-31 23:32+0800\n"
-"PO-Revision-Date: 2018-06-16 00:09+0900\n"
+"PO-Revision-Date: 2018-06-16 01:40+0900\n"
 "Last-Translator: Hiroshi Takekawa <sian@big.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1267,152 +1267,152 @@ msgstr "config の %d 行目 (blob %s 内) が不正です"
 #: config.c:792
 #, c-format
 msgid "bad config line %d in file %s"
-msgstr ""
+msgstr "config の %d 行目 (ファイル %s 内) が不正です"
 
 #: config.c:796
 #, c-format
 msgid "bad config line %d in standard input"
-msgstr ""
+msgstr "config の %d 行目 (標準入力より) が不正です"
 
 #: config.c:800
 #, c-format
 msgid "bad config line %d in submodule-blob %s"
-msgstr ""
+msgstr "config の %d 行目 (submodule-blob %s 内) が不正です"
 
 #: config.c:804
 #, c-format
 msgid "bad config line %d in command line %s"
-msgstr ""
+msgstr "config の %d 行目 (コマンドライン %s) が不正です"
 
 #: config.c:808
 #, c-format
 msgid "bad config line %d in %s"
-msgstr ""
+msgstr "config の %d 行目 (%s) が不正です"
 
 #: config.c:936
 msgid "out of range"
-msgstr ""
+msgstr "範囲外"
 
 #: config.c:936
 msgid "invalid unit"
-msgstr ""
+msgstr "不正な単位"
 
 #: config.c:942
 #, c-format
 msgid "bad numeric config value '%s' for '%s': %s"
-msgstr ""
+msgstr "不正な数値設定です '%s' ('%s' 向け): %s"
 
 #: config.c:947
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in blob %s: %s"
-msgstr ""
+msgstr "不正な数値設定です '%s' ('%s' 向け, blob %s): %s"
 
 #: config.c:950
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in file %s: %s"
-msgstr ""
+msgstr "不正な数値設定です '%s' ('%s' 向け, ファイル %s): %s"
 
 #: config.c:953
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in standard input: %s"
-msgstr ""
+msgstr "不正な数値設定です '%s' ('%s' 向け, 標準入力): %s"
 
 #: config.c:956
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in submodule-blob %s: %s"
-msgstr ""
+msgstr "不正な数値設定です '%s' ('%s' 向け, submodule-blob %s): %s"
 
 #: config.c:959
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in command line %s: %s"
-msgstr ""
+msgstr "不正な数値設定です '%s' ('%s' 向け, コマンドライン %s): %s"
 
 #: config.c:962
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in %s: %s"
-msgstr ""
+msgstr "不正な数値設定です '%s' ('%s' 向け, %s): %s"
 
 #: config.c:1057
 #, c-format
 msgid "failed to expand user dir in: '%s'"
-msgstr ""
+msgstr "ユーザディレクトリの置き換えに失敗しました: '%s'"
 
 #: config.c:1066
 #, c-format
 msgid "'%s' for '%s' is not a valid timestamp"
-msgstr ""
+msgstr "'%s' は '%s' に対して不正なタイムスタンプです"
 
 #: config.c:1171 config.c:1182
 #, c-format
 msgid "bad zlib compression level %d"
-msgstr ""
+msgstr "%d は不正な zlib 圧縮レベルです"
 
 #: config.c:1307
 #, c-format
 msgid "invalid mode for object creation: %s"
-msgstr ""
+msgstr "オブジェクト作成には不正なモードです: %s"
 
 #: config.c:1473
 #, c-format
 msgid "bad pack compression level %d"
-msgstr ""
+msgstr "%d は不正なパック圧縮レベルです"
 
 #: config.c:1681
 msgid "unable to parse command-line config"
-msgstr ""
+msgstr "command-line config を解釈できません"
 
 #: config.c:2013
 msgid "unknown error occurred while reading the configuration files"
-msgstr ""
+msgstr "コンフィギュレーションファイルを読み込み中に不明なエラーが発生しました"
 
 #: config.c:2200
 #, c-format
 msgid "Invalid %s: '%s'"
-msgstr ""
+msgstr "不正な %s: '%s'"
 
 #: config.c:2243
 #, c-format
 msgid "unknown core.untrackedCache value '%s'; using 'keep' default value"
-msgstr ""
+msgstr "'%s' は不明な core.untrackedCache 向けの値です。'keep' をデフォルト値として使います"
 
 #: config.c:2269
 #, c-format
 msgid "splitIndex.maxPercentChange value '%d' should be between 0 and 100"
-msgstr ""
+msgstr "splitIndex.maxPercentChange の値 '%d' は 0 と 100 の間でなければいけません"
 
 #: config.c:2294
 #, c-format
 msgid "unable to parse '%s' from command-line config"
-msgstr ""
+msgstr "コマンドラインによる設定である '%s' を解釈できません"
 
 #: config.c:2296
 #, c-format
 msgid "bad config variable '%s' in file '%s' at line %d"
-msgstr ""
+msgstr "変数 '%s' (ファイル '%s' 内 の %d 行目) の値が不正です"
 
 #: config.c:2402
 #, c-format
 msgid "%s has multiple values"
-msgstr ""
+msgstr "%s が複数の値を持っています"
 
 #: config.c:2766 config.c:3019
 #, c-format
 msgid "fstat on %s failed"
-msgstr ""
+msgstr "fstat(%s) に失敗しました"
 
 #: config.c:2905
 #, c-format
 msgid "could not set '%s' to '%s'"
-msgstr ""
+msgstr "'%s' に '%s' を設定できませんでした"
 
 #: config.c:2907 builtin/remote.c:779
 #, c-format
 msgid "could not unset '%s'"
-msgstr ""
+msgstr "'%s' を空に設定できませんでした"
 
 #: connect.c:60
 msgid "The remote end hung up upon initial contact"
-msgstr ""
+msgstr "接続先が最初のコンタクトでハングアップしましたt"
 
 #: connect.c:62
 msgid ""
@@ -1421,27 +1421,30 @@ msgid ""
 "Please make sure you have the correct access rights\n"
 "and the repository exists."
 msgstr ""
+"リモートレポジトリを読み込めませんでした。\n"
+"\n"
+"レポジトリが存在してアクセス権があるか確認してください。"
 
 #: connected.c:66 builtin/fsck.c:201 builtin/prune.c:145
 msgid "Checking connectivity"
-msgstr ""
+msgstr "接続性をチェックしています"
 
 #: connected.c:78
 msgid "Could not run 'git rev-list'"
-msgstr ""
+msgstr "'git rev-list' を実行できませんでした"
 
 #: connected.c:98
 msgid "failed write to rev-list"
-msgstr ""
+msgstr "rev-list に書きこめませんでした"
 
 #: connected.c:105
 msgid "failed to close rev-list's stdin"
-msgstr ""
+msgstr "rev-list の標準入力をクローズできませんでした"
 
 #: convert.c:206
 #, c-format
 msgid "CRLF would be replaced by LF in %s."
-msgstr ""
+msgstr "%s で CRLF を LF に置き換えます。"
 
 #: convert.c:208
 #, c-format
@@ -1449,11 +1452,13 @@ msgid ""
 "CRLF will be replaced by LF in %s.\n"
 "The file will have its original line endings in your working directory."
 msgstr ""
+"%s で CRLF を LF に置き換えます。\n"
+"ファイルは元の行末記号のままでワーキングディレクトリに保持します。"
 
 #: convert.c:216
 #, c-format
 msgid "LF would be replaced by CRLF in %s"
-msgstr ""
+msgstr "%s で LF を CRLF に置き換えます。"
 
 #: convert.c:218
 #, c-format
@@ -1461,6 +1466,8 @@ msgid ""
 "LF will be replaced by CRLF in %s.\n"
 "The file will have its original line endings in your working directory."
 msgstr ""
+"%s で LF を CRLF に置き換えます。\n"
+"ファイルは元の行末記号のままでワーキングディレクトリに保持します。"
 
 #: convert.c:279
 #, c-format

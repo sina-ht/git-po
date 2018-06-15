@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2018-05-31 23:32+0800\n"
-"PO-Revision-Date: 2018-06-15 22:06+0900\n"
+"PO-Revision-Date: 2018-06-16 00:09+0900\n"
 "Last-Translator: Hiroshi Takekawa <sian@big.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1049,31 +1049,31 @@ msgstr "アップストリームブランチの設定を書きこめませんで
 #: branch.c:157
 #, c-format
 msgid "Not tracking: ambiguous information for ref %s"
-msgstr ""
+msgstr "トラッキングしません: ref %s が曖昧です"
 
 #: branch.c:190
 #, c-format
 msgid "'%s' is not a valid branch name."
-msgstr ""
+msgstr "'%s' は不正なブランチ名です。"
 
 #: branch.c:209
 #, c-format
 msgid "A branch named '%s' already exists."
-msgstr ""
+msgstr "'%s' というブランチは既に存在します。"
 
 #: branch.c:214
 msgid "Cannot force update the current branch."
-msgstr ""
+msgstr "現在のブランチを強制的に更新できませんでした。"
 
 #: branch.c:234
 #, c-format
 msgid "Cannot setup tracking information; starting point '%s' is not a branch."
-msgstr ""
+msgstr "トラッキング情報を設定できませんでした。開始ポイント '%s' はブランチではありません。"
 
 #: branch.c:236
 #, c-format
 msgid "the requested upstream branch '%s' does not exist"
-msgstr ""
+msgstr "要望されたアップストリームブランチ '%s' が存在しません"
 
 #: branch.c:238
 msgid ""
@@ -1086,118 +1086,126 @@ msgid ""
 "will track its remote counterpart, you may want to use\n"
 "\"git push -u\" to set the upstream config as you push."
 msgstr ""
+"\n"
+"もし、既にリモートに存在しているアップストリームのブランチに対して\n"
+"作業をしているのなら、まず\n"
+"\"git fetch\" でリモートのコミットを取得してください。\n"
+"\n"
+"リモートブランチをトラッキングしているローカルブランチを\n"
+"push しようとしているのであれば、\n"
+"\"git push -u\" でアップストリームの設定をする必要があります。"
 
 #: branch.c:281
 #, c-format
 msgid "Not a valid object name: '%s'."
-msgstr ""
+msgstr "不正なオブジェクト名です: '%s'。"
 
 #: branch.c:301
 #, c-format
 msgid "Ambiguous object name: '%s'."
-msgstr ""
+msgstr "曖昧なオブジェクト名です: '%s'。"
 
 #: branch.c:306
 #, c-format
 msgid "Not a valid branch point: '%s'."
-msgstr ""
+msgstr "不正なブランチポイントです: '%s'。"
 
 #: branch.c:360
 #, c-format
 msgid "'%s' is already checked out at '%s'"
-msgstr ""
+msgstr "'%s' は既に '%s' に checkout 済です"
 
 #: branch.c:383
 #, c-format
 msgid "HEAD of working tree %s is not updated"
-msgstr ""
+msgstr "ワーキングツリー %s の HEAD は更新されませんでした"
 
 #: bundle.c:34
 #, c-format
 msgid "'%s' does not look like a v2 bundle file"
-msgstr ""
+msgstr "'%s' は v2 bundle ファイルのようではありません"
 
 #: bundle.c:62
 #, c-format
 msgid "unrecognized header: %s%s (%d)"
-msgstr ""
+msgstr "ヘッダが認識できません: %s%s (%d)"
 
 #: bundle.c:88 sequencer.c:2080 sequencer.c:2557 builtin/commit.c:755
 #, c-format
 msgid "could not open '%s'"
-msgstr ""
+msgstr "'%s' をオープンできませんでした"
 
 #: bundle.c:139
 msgid "Repository lacks these prerequisite commits:"
-msgstr ""
+msgstr "レポジトリにはこれらの必要な commit がありません:"
 
 #: bundle.c:190
 #, c-format
 msgid "The bundle contains this ref:"
 msgid_plural "The bundle contains these %d refs:"
-msgstr[0] ""
+msgstr[0] "bundle はこれら %d 個の refs を含んでいます:"
 
 #: bundle.c:197
 msgid "The bundle records a complete history."
-msgstr ""
+msgstr "bundle は完全な履歴を記録しています。"
 
 #: bundle.c:199
 #, c-format
 msgid "The bundle requires this ref:"
 msgid_plural "The bundle requires these %d refs:"
-msgstr[0] ""
+msgstr[0] "bundle rはこれら %d の refs を必要としています:"
 
 #: bundle.c:258
 msgid "Could not spawn pack-objects"
-msgstr ""
+msgstr "pack-objects を起動できませんでした"
 
 #: bundle.c:269
 msgid "pack-objects died"
-msgstr ""
+msgstr "pack-objects が終了しました"
 
 #: bundle.c:311
 msgid "rev-list died"
-msgstr ""
+msgstr "rev-list が終了しました"
 
 #: bundle.c:360
 #, c-format
 msgid "ref '%s' is excluded by the rev-list options"
-msgstr ""
+msgstr "ref '%s' は rev-list のオプションで除外されいます"
 
 #: bundle.c:450 builtin/log.c:183 builtin/log.c:1607 builtin/shortlog.c:303
 #, c-format
 msgid "unrecognized argument: %s"
-msgstr ""
+msgstr "認識できない引数です: %s"
 
 #: bundle.c:458
 msgid "Refusing to create empty bundle."
-msgstr ""
+msgstr "空の bundle を作成しません。"
 
 #: bundle.c:470
 #, c-format
 msgid "cannot create '%s'"
-msgstr ""
+msgstr "'%s' を作成できませんでした"
 
 #: bundle.c:498
 msgid "index-pack died"
-msgstr ""
+msgstr "index-pack が終了しました"
 
 #: color.c:296
 #, c-format
 msgid "invalid color value: %.*s"
-msgstr ""
+msgstr "不正な色の値です: %.*s"
 
 #: commit.c:43 sequencer.c:2363 builtin/am.c:421 builtin/am.c:465
 #: builtin/am.c:1436 builtin/am.c:2072 builtin/replace.c:376
 #: builtin/replace.c:448
 #, c-format
 msgid "could not parse %s"
-msgstr ""
+msgstr "%s を解釈できませんでした"
 
 #: commit.c:45
 #, c-format
 msgid "%s %s is not a commit!"
-msgstr ""
+msgstr "%s %s は commit ではありません！"
 
 #: commit.c:182
 msgid ""
@@ -1210,6 +1218,14 @@ msgid ""
 "Turn this message off by running\n"
 "\"git config advice.graftFileDeprecated false\""
 msgstr ""
+"<GIT_DIR>/info/grafts のサポートは推奨されません。\n"
+"将来の Git では削除されます。\n"
+"\n"
+"\"git replace --convert-graft-file\"\n"
+"を使って grafts を replace refs に変換してください。\n"
+"\n"
+"以下を実行すると、このメッセージを出さないようにできます\n"
+"\"git config advice.graftFileDeprecated false\""
 
 #: commit.c:1537
 msgid ""
@@ -1217,33 +1233,36 @@ msgid ""
 "You may want to amend it after fixing the message, or set the config\n"
 "variable i18n.commitencoding to the encoding your project uses.\n"
 msgstr ""
+"警告: commit メッセージが UTF-8 に準拠していません。\n"
+"メッセージを修正して amend するか、あるいは\n"
+"変数 i18n.commitencoding を使っている文字コードのエンコーディング形式に設定してください。\n"
 
 #: commit-graph.c:669
 #, c-format
 msgid "the commit graph format cannot write %d commits"
-msgstr ""
+msgstr "commit グラフ形式に %d commit を書き込めません"
 
 #: commit-graph.c:696
 msgid "too many commits to write graph"
-msgstr ""
+msgstr "グラフを書くには commit が多すぎます"
 
 #: commit-graph.c:707 builtin/init-db.c:516 builtin/init-db.c:521
 #, c-format
 msgid "cannot mkdir %s"
-msgstr ""
+msgstr "mkdir %s できませんでした"
 
 #: compat/obstack.c:405 compat/obstack.c:407
 msgid "memory exhausted"
-msgstr ""
+msgstr "メモリが不足しています"
 
 #: config.c:187
 msgid "relative config include conditionals must come from files"
-msgstr ""
+msgstr "相対的な設定がファイルから得るべき条件を含んでいます"
 
 #: config.c:788
 #, c-format
 msgid "bad config line %d in blob %s"
-msgstr ""
+msgstr "config の %d 行目 (blob %s 内) が不正です"
 
 #: config.c:792
 #, c-format

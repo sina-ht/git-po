@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2018-05-31 23:32+0800\n"
-"PO-Revision-Date: 2018-06-16 01:40+0900\n"
+"PO-Revision-Date: 2018-06-30 21:51+0900\n"
 "Last-Translator: Hiroshi Takekawa <sian@big.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1472,134 +1472,134 @@ msgstr ""
 #: convert.c:279
 #, c-format
 msgid "BOM is prohibited in '%s' if encoded as %s"
-msgstr ""
+msgstr "'%s' を %s にコード化するのに BOM は禁止されています"
 
 #: convert.c:286
 #, c-format
 msgid ""
 "The file '%s' contains a byte order mark (BOM). Please use UTF-%s as working-"
 "tree-encoding."
-msgstr ""
+msgstr "ファイル '%s' はバイトオーダマーク (BOM) を含んでいます。UTF-%s を working-tree-encoding に使ってください。"
 
 #: convert.c:304
 #, c-format
 msgid "BOM is required in '%s' if encoded as %s"
-msgstr ""
+msgstr "'%s' を %s にコード化するには BOM が必要です"
 
 #: convert.c:306
 #, c-format
 msgid ""
 "The file '%s' is missing a byte order mark (BOM). Please use UTF-%sBE or UTF-"
 "%sLE (depending on the byte order) as working-tree-encoding."
-msgstr ""
+msgstr "ファイル '%s' にバイトオーダマーク (BOM) がありません。バイトオーダに応じて UTF-%sBE か UTF-%sLE を working-tree-encoding に使ってください。"
 
 #: convert.c:424
 #, c-format
 msgid "failed to encode '%s' from %s to %s"
-msgstr ""
+msgstr "'%s' のコードを %s から %s に変換するのに失敗しました"
 
 #: convert.c:467
 #, c-format
 msgid "encoding '%s' from %s to %s and back is not the same"
-msgstr ""
+msgstr "'%s' のコード変換において %s から %s への変換とその逆変換が同じになりません"
 
 #: convert.c:1225
 msgid "true/false are no valid working-tree-encodings"
-msgstr ""
+msgstr "true/false は working-tree-encodings に使える値ではありません"
 
 #: date.c:116
 msgid "in the future"
-msgstr ""
+msgstr "未来"
 
 #: date.c:122
 #, c-format
 msgid "%<PRIuMAX> second ago"
 msgid_plural "%<PRIuMAX> seconds ago"
-msgstr[0] ""
+msgstr[0] "%<PRIuMAX> 秒前"
 
 #: date.c:129
 #, c-format
 msgid "%<PRIuMAX> minute ago"
 msgid_plural "%<PRIuMAX> minutes ago"
-msgstr[0] ""
+msgstr[0] "%<PRIuMAX> 分前"
 
 #: date.c:136
 #, c-format
 msgid "%<PRIuMAX> hour ago"
 msgid_plural "%<PRIuMAX> hours ago"
-msgstr[0] ""
+msgstr[0] "%<PRIuMAX> 時間前"
 
 #: date.c:143
 #, c-format
 msgid "%<PRIuMAX> day ago"
 msgid_plural "%<PRIuMAX> days ago"
-msgstr[0] ""
+msgstr[0] "%<PRIuMAX> 日前"
 
 #: date.c:149
 #, c-format
 msgid "%<PRIuMAX> week ago"
 msgid_plural "%<PRIuMAX> weeks ago"
-msgstr[0] ""
+msgstr[0] "%<PRIuMAX> 週間前"
 
 #: date.c:156
 #, c-format
 msgid "%<PRIuMAX> month ago"
 msgid_plural "%<PRIuMAX> months ago"
-msgstr[0] ""
+msgstr[0] "%<PRIuMAX> ヵ月前"
 
 #: date.c:167
 #, c-format
 msgid "%<PRIuMAX> year"
 msgid_plural "%<PRIuMAX> years"
-msgstr[0] ""
+msgstr[0] "%<PRIuMAX> 年"
 
 #. TRANSLATORS: "%s" is "<n> years"
 #: date.c:170
 #, c-format
 msgid "%s, %<PRIuMAX> month ago"
 msgid_plural "%s, %<PRIuMAX> months ago"
-msgstr[0] ""
+msgstr[0] "%s, %<PRIuMAX> ヵ月前"
 
 #: date.c:175 date.c:180
 #, c-format
 msgid "%<PRIuMAX> year ago"
 msgid_plural "%<PRIuMAX> years ago"
-msgstr[0] ""
+msgstr[0] "%<PRIuMAX> 年前"
 
 #: diffcore-order.c:24
 #, c-format
 msgid "failed to read orderfile '%s'"
-msgstr ""
+msgstr "orderfile '%s' を読み込めませんでした"
 
 #: diffcore-rename.c:535
 msgid "Performing inexact rename detection"
-msgstr ""
+msgstr "厳密でないリネーム検出を行います"
 
 #: diff.c:74
 #, c-format
 msgid "option '%s' requires a value"
-msgstr ""
+msgstr "オプション '%s' は値を取ります"
 
 #: diff.c:152
 #, c-format
 msgid "  Failed to parse dirstat cut-off percentage '%s'\n"
-msgstr ""
+msgstr "  diffstat のカットオフ率 '%s' が解釈できませんでした\n"
 
 #: diff.c:157
 #, c-format
 msgid "  Unknown dirstat parameter '%s'\n"
-msgstr ""
+msgstr "  '%s' は不明な dirstat パラメータです\n"
 
 #: diff.c:281
 msgid ""
 "color moved setting must be one of 'no', 'default', 'zebra', 'dimmed_zebra', "
 "'plain'"
-msgstr ""
+msgstr "colormoved の設定値は 'no', 'default', 'zebra', 'dimmed_zebra', 'plain' のいずれかでなければなりません"
 
 #: diff.c:341
 #, c-format
 msgid "Unknown value for 'diff.submodule' config variable: '%s'"
-msgstr ""
+msgstr "'diff.submodule' 設定変数の値が未知の値です: '%s'"
 
 #: diff.c:401
 #, c-format
@@ -1607,23 +1607,25 @@ msgid ""
 "Found errors in 'diff.dirstat' config variable:\n"
 "%s"
 msgstr ""
+"'diff.dirstat' 設定変数にエラーがありました:\n"
+"%s"
 
 #: diff.c:3823
 #, c-format
 msgid "external diff died, stopping at %s"
-msgstr ""
+msgstr "外部 diff が異常終了し、%s で止まりました"
 
 #: diff.c:4153
 msgid "--name-only, --name-status, --check and -s are mutually exclusive"
-msgstr ""
+msgstr "--name-only, --name-status, --check, -s は、これらのうち一つしか指定できません"
 
 #: diff.c:4156
 msgid "-G, -S and --find-object are mutually exclusive"
-msgstr ""
+msgstr "-G, -S, --find-object は、これらのうち一つしか指定できません"
 
 #: diff.c:4244
 msgid "--follow requires exactly one pathspec"
-msgstr ""
+msgstr "--follow は pathspec をただ一つ必要とします"
 
 #: diff.c:4410
 #, c-format
@@ -1631,53 +1633,55 @@ msgid ""
 "Failed to parse --dirstat/-X option parameter:\n"
 "%s"
 msgstr ""
+"--dirstat/-X オプションのパラメータを解釈できませんでした:\n"
+"%s"
 
 #: diff.c:4424
 #, c-format
 msgid "Failed to parse --submodule option parameter: '%s'"
-msgstr ""
+msgstr "--submodule オプションのパラメータを解釈できませんでした: '%s'"
 
 #: diff.c:5500
 msgid "inexact rename detection was skipped due to too many files."
-msgstr ""
+msgstr "厳密でないリネーム検出はファイルが多すぎるためスキップされました。"
 
 #: diff.c:5503
 msgid "only found copies from modified paths due to too many files."
-msgstr ""
+msgstr "同じ内容のファイルの検出はファイル数が多すぎるため修正されたパスだけから探します。"
 
 #: diff.c:5506
 #, c-format
 msgid ""
 "you may want to set your %s variable to at least %d and retry the command."
-msgstr ""
+msgstr "変数 %s の値を最低でも %d にしてやりなおすとよいかもしれません。"
 
 #: dir.c:1867
 #, c-format
 msgid "could not open directory '%s'"
-msgstr ""
+msgstr "ディレクトリ '%s' を開けません"
 
 #: dir.c:2109
 msgid "failed to get kernel name and information"
-msgstr ""
+msgstr "カーネルの情報を取得できませんでした"
 
 #: dir.c:2233
 msgid "Untracked cache is disabled on this system or location."
-msgstr ""
+msgstr "管理対象にしていないファイル一覧のキャッシュ(untracked cache)をシステムか場所の原因で無効にします。"
 
 #: dir.c:3075 dir.c:3080
 #, c-format
 msgid "could not create directories for %s"
-msgstr ""
+msgstr "ディレクトリ %s を作成できませんでした"
 
 #: dir.c:3109
 #, c-format
 msgid "could not migrate git directory from '%s' to '%s'"
-msgstr ""
+msgstr "git ディレクトリを '%s' から '%s' に移行できませんでした"
 
 #: editor.c:61
 #, c-format
 msgid "hint: Waiting for your editor to close the file...%c"
-msgstr ""
+msgstr "エディタがファイルをクローズするのを待っています...%c"
 
 #: entry.c:177
 msgid "Filtering content"

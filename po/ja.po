@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2018-06-16 22:06+0800\n"
-"PO-Revision-Date: 2018-06-30 22:01+0900\n"
+"PO-Revision-Date: 2018-07-01 18:28+0900\n"
 "Last-Translator: Hiroshi Takekawa <sian@big.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1746,151 +1746,151 @@ msgstr "エディタがファイルをクローズするのを待っています
 
 #: entry.c:177
 msgid "Filtering content"
-msgstr ""
+msgstr "コンテンツのフィルタリング中"
 
 #: entry.c:435
 #, c-format
 msgid "could not stat file '%s'"
-msgstr ""
+msgstr "ファイル '%s' を stat() できませんでした"
 
 #: fetch-object.c:17
 msgid "Remote with no URL"
-msgstr ""
+msgstr "URL の指定のないリモート"
 
 #: fetch-pack.c:254
 msgid "git fetch-pack: expected shallow list"
-msgstr ""
+msgstr "git fetch-pack: 予期しない shallow リストを受けとりました"
 
 #: fetch-pack.c:266
 msgid "git fetch-pack: expected ACK/NAK, got a flush packet"
-msgstr ""
+msgstr "git fetch-pack: ACK/NAK であるべきところでフラッシュパケットを受けとりました"
 
 #: fetch-pack.c:285 builtin/archive.c:63
 #, c-format
 msgid "remote error: %s"
-msgstr ""
+msgstr "リモートでエラー: %s"
 
 #: fetch-pack.c:286
 #, c-format
 msgid "git fetch-pack: expected ACK/NAK, got '%s'"
-msgstr ""
+msgstr "git fetch-pack: ACK/NAK であるべきところで '%s' を受けとりました"
 
 #: fetch-pack.c:338
 msgid "--stateless-rpc requires multi_ack_detailed"
-msgstr ""
+msgstr "--stateless-rpc は multi_ack_detailed が必要です"
 
 #: fetch-pack.c:429 fetch-pack.c:1310
 #, c-format
 msgid "invalid shallow line: %s"
-msgstr ""
+msgstr "不正な shallow の行です: %s"
 
 #: fetch-pack.c:435 fetch-pack.c:1316
 #, c-format
 msgid "invalid unshallow line: %s"
-msgstr ""
+msgstr "不正な unshallow の行です: %s"
 
 #: fetch-pack.c:437 fetch-pack.c:1318
 #, c-format
 msgid "object not found: %s"
-msgstr ""
+msgstr "オブジェクトが見つかりませんでした: %s"
 
 #: fetch-pack.c:440 fetch-pack.c:1321
 #, c-format
 msgid "error in object: %s"
-msgstr ""
+msgstr "オブジェクトにエラーがあります: %s"
 
 #: fetch-pack.c:442 fetch-pack.c:1323
 #, c-format
 msgid "no shallow found: %s"
-msgstr ""
+msgstr "shallow が見つかりませんでした: %s"
 
 #: fetch-pack.c:445 fetch-pack.c:1326
 #, c-format
 msgid "expected shallow/unshallow, got %s"
-msgstr ""
+msgstr "shallow/unshallow であるべきところで %s を受けとりました"
 
 #: fetch-pack.c:486
 #, c-format
 msgid "got %s %d %s"
-msgstr ""
+msgstr "%s %d %s を受けとりました"
 
 #: fetch-pack.c:500
 #, c-format
 msgid "invalid commit %s"
-msgstr ""
+msgstr "不正なコミット %s"
 
 #: fetch-pack.c:533
 msgid "giving up"
-msgstr ""
+msgstr "あきらめます"
 
 #: fetch-pack.c:543 progress.c:229
 msgid "done"
-msgstr ""
+msgstr "完了"
 
 #: fetch-pack.c:555
 #, c-format
 msgid "got %s (%d) %s"
-msgstr ""
+msgstr "%s (%d) %s を受けとりました"
 
 #: fetch-pack.c:601
 #, c-format
 msgid "Marking %s as complete"
-msgstr ""
+msgstr "%s は complete (local ref の先祖) とマークします"
 
 #: fetch-pack.c:828
 #, c-format
 msgid "already have %s (%s)"
-msgstr ""
+msgstr "%s (%s) は既にあります"
 
 #: fetch-pack.c:869
 msgid "fetch-pack: unable to fork off sideband demultiplexer"
-msgstr ""
+msgstr "fetch-pack: sideband demultiplexer を起動できませんでした"
 
 #: fetch-pack.c:877
 msgid "protocol error: bad pack header"
-msgstr ""
+msgstr "プロトコルエラー: パックヘッダが不正"
 
 #: fetch-pack.c:944
 #, c-format
 msgid "fetch-pack: unable to fork off %s"
-msgstr ""
+msgstr "fetch-pack: %s を起動できませんでした"
 
 #: fetch-pack.c:960
 #, c-format
 msgid "%s failed"
-msgstr ""
+msgstr "%s でエラーが発生しました"
 
 #: fetch-pack.c:962
 msgid "error in sideband demultiplexer"
-msgstr ""
+msgstr "sideband demultiplexer でエラーが発生しました"
 
 #: fetch-pack.c:989
 msgid "Server does not support shallow clients"
-msgstr ""
+msgstr "サーバが shallow をサポートしてません"
 
 #: fetch-pack.c:993
 msgid "Server supports multi_ack_detailed"
-msgstr ""
+msgstr "サーバが multi_ack_detailed をサポートしています"
 
 #: fetch-pack.c:996
 msgid "Server supports no-done"
-msgstr ""
+msgstr "サーバ no-done をサポートしています"
 
 #: fetch-pack.c:1002
 msgid "Server supports multi_ack"
-msgstr ""
+msgstr "サーバが multi_ack をサポートしています"
 
 #: fetch-pack.c:1006
 msgid "Server supports side-band-64k"
-msgstr ""
+msgstr "サーバが side-band-64k をサポートしています"
 
 #: fetch-pack.c:1010
 msgid "Server supports side-band"
-msgstr ""
+msgstr "サーバが side-band をサポートしています"
 
 #: fetch-pack.c:1014
 msgid "Server supports allow-tip-sha1-in-want"
-msgstr ""
+msgstr "サーバが allow-tip-sha1-in-want をサポートしています"
 
 #: fetch-pack.c:1018
 msgid "Server supports allow-reachable-sha1-in-want"

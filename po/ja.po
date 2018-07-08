@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2018-06-16 22:06+0800\n"
-"PO-Revision-Date: 2018-07-01 18:28+0900\n"
+"PO-Revision-Date: 2018-07-08 15:48+0900\n"
 "Last-Translator: Hiroshi Takekawa <sian@big.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1894,166 +1894,166 @@ msgstr "サーバが allow-tip-sha1-in-want をサポートしています"
 
 #: fetch-pack.c:1018
 msgid "Server supports allow-reachable-sha1-in-want"
-msgstr ""
+msgstr "サーバが allow-reachable-sha1-in-want をサポートしています"
 
 #: fetch-pack.c:1028
 msgid "Server supports ofs-delta"
-msgstr ""
+msgstr "サーバが ofs-delta をサポートしています"
 
 #: fetch-pack.c:1034 fetch-pack.c:1204
 msgid "Server supports filter"
-msgstr ""
+msgstr "サーバが filter をサポートしています"
 
 #: fetch-pack.c:1042
 #, c-format
 msgid "Server version is %.*s"
-msgstr ""
+msgstr "サーババージョンは %.*s です"
 
 #: fetch-pack.c:1048
 msgid "Server does not support --shallow-since"
-msgstr ""
+msgstr "サーバが --shallow-since をサポートしていません"
 
 #: fetch-pack.c:1052
 msgid "Server does not support --shallow-exclude"
-msgstr ""
+msgstr "サーバが --shallow-exclude をサポートしていません"
 
 #: fetch-pack.c:1054
 msgid "Server does not support --deepen"
-msgstr ""
+msgstr "サーバが --deepen をサポートしていません"
 
 #: fetch-pack.c:1065
 msgid "no common commits"
-msgstr ""
+msgstr "先祖が共通なコミットがありません"
 
 #: fetch-pack.c:1077 fetch-pack.c:1414
 msgid "git fetch-pack: fetch failed."
-msgstr ""
+msgstr "git fetch-pack: fetch に失敗しました。"
 
 #: fetch-pack.c:1199
 msgid "Server does not support shallow requests"
-msgstr ""
+msgstr "サーバが shallow リクエストをサポートしていません"
 
 #: fetch-pack.c:1584
 msgid "no matching remote head"
-msgstr ""
+msgstr "マッチするリモートの head がありません"
 
 #: fetch-pack.c:1610
 #, c-format
 msgid "no such remote ref %s"
-msgstr ""
+msgstr "リモートの ref %s がありません"
 
 #: fetch-pack.c:1613
 #, c-format
 msgid "Server does not allow request for unadvertised object %s"
-msgstr ""
+msgstr "サーバは unadvertised object %s へのリクエストを許可していません"
 
 #: gpg-interface.c:185
 msgid "gpg failed to sign the data"
-msgstr ""
+msgstr "データの署名をするために gpg を実行しましたが失敗しました"
 
 #: gpg-interface.c:210
 msgid "could not create temporary file"
-msgstr ""
+msgstr "一時ファイルを作成できませんでした"
 
 #: gpg-interface.c:213
 #, c-format
 msgid "failed writing detached signature to '%s'"
-msgstr ""
+msgstr "分離署名を '%s' に書き込めませんでした"
 
 #: graph.c:97
 #, c-format
 msgid "ignore invalid color '%.*s' in log.graphColors"
-msgstr ""
+msgstr "log.graphColors の無効な色 '%.*s' を無視します"
 
 #: grep.c:2020
 #, c-format
 msgid "'%s': unable to read %s"
-msgstr ""
+msgstr "'%s': %s を読み込めませんでした"
 
 #: grep.c:2037 setup.c:164 builtin/clone.c:409 builtin/diff.c:81
 #: builtin/rm.c:134
 #, c-format
 msgid "failed to stat '%s'"
-msgstr ""
+msgstr "'%s' の stat() に失敗しました"
 
 #: grep.c:2048
 #, c-format
 msgid "'%s': short read"
-msgstr ""
+msgstr "'%s': 想定より短いサイズしか読めませんでした"
 
 #: help.c:23
 msgid "start a working area (see also: git help tutorial)"
-msgstr ""
+msgstr "ワーキングエリアを開始します (git help tutorial も参照ください)"
 
 #: help.c:24
 msgid "work on the current change (see also: git help everyday)"
-msgstr ""
+msgstr "今作業している変更についての作業 (git help everyday も参照)"
 
 #: help.c:25
 msgid "examine the history and state (see also: git help revisions)"
-msgstr ""
+msgstr "履歴や状態を調べる (git help revisions を参照)"
 
 #: help.c:26
 msgid "grow, mark and tweak your common history"
-msgstr ""
+msgstr "共通のヒストリを成長させたり、マークしたり、少し変えたりします"
 
 #: help.c:27
 msgid "collaborate (see also: git help workflows)"
-msgstr ""
+msgstr "共同開発 (git help workflows も参照)"
 
 #: help.c:31
 msgid "Main Porcelain Commands"
-msgstr ""
+msgstr "主要な Porcelain(上位の) コマンド"
 
 #: help.c:32
 msgid "Ancillary Commands / Manipulators"
-msgstr ""
+msgstr "補助的なコマンド群 / 操作系"
 
 #: help.c:33
 msgid "Ancillary Commands / Interrogators"
-msgstr ""
+msgstr "補助的なコマンド群 / 確認系"
 
 #: help.c:34
 msgid "Interacting with Others"
-msgstr ""
+msgstr "他とのやりとり"
 
 #: help.c:35
 msgid "Low-level Commands / Manipulators"
-msgstr ""
+msgstr "Low-level(下位の) コマンド / 操作系"
 
 #: help.c:36
 msgid "Low-level Commands / Interrogators"
-msgstr ""
+msgstr "Low-level(下位の) コマンド / 確認系"
 
 #: help.c:37
 msgid "Low-level Commands / Synching Repositories"
-msgstr ""
+msgstr "Low-level(下位の) コマンド / レポジトリの同期"
 
 #: help.c:38
 msgid "Low-level Commands / Internal Helpers"
-msgstr ""
+msgstr "Low-level(下位の) コマンド / 内部のヘルパー系"
 
 #: help.c:293
 #, c-format
 msgid "available git commands in '%s'"
-msgstr ""
+msgstr "git のコマンドは '%s' にあるのものが利用できます"
 
 #: help.c:300
 msgid "git commands available from elsewhere on your $PATH"
-msgstr ""
+msgstr "git のコマンドは $PATH にある別の所のものが利用できます"
 
 #: help.c:309
 msgid "These are common Git commands used in various situations:"
-msgstr ""
+msgstr "これらはいろいろな状況で使われるよくある Git のコマンドです"
 
 #: help.c:358 git.c:90
 #, c-format
 msgid "unsupported command listing type '%s'"
-msgstr ""
+msgstr "'%s' はサポートされていないコマンド群の名前です"
 
 #: help.c:405
 msgid "The common Git guides are:"
-msgstr ""
+msgstr "よくある Git のガイド:"
 
 #: help.c:467
 #, c-format
@@ -2061,10 +2061,12 @@ msgid ""
 "'%s' appears to be a git command, but we were not\n"
 "able to execute it. Maybe git-%s is broken?"
 msgstr ""
+"'%s' は git のコマンドのようですが実行できません。\n"
+"git-%s がおかしいのでは？"
 
 #: help.c:526
 msgid "Uh oh. Your system reports no Git commands at all."
-msgstr ""
+msgstr "あーあ。システムに Git のコマンドがいっさい見つかりません。"
 
 #: help.c:548
 #, c-format

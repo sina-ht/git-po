@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2018-06-16 22:06+0800\n"
-"PO-Revision-Date: 2018-07-08 15:48+0900\n"
+"PO-Revision-Date: 2018-07-15 23:26+0900\n"
 "Last-Translator: Hiroshi Takekawa <sian@big.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -2071,22 +2071,22 @@ msgstr "あーあ。システムに Git のコマンドがいっさい見つか�
 #: help.c:548
 #, c-format
 msgid "WARNING: You called a Git command named '%s', which does not exist."
-msgstr ""
+msgstr "警告: '%s' という Git コマンドを実行しようとしましたが、存在しません。"
 
 #: help.c:553
 #, c-format
 msgid "Continuing under the assumption that you meant '%s'."
-msgstr ""
+msgstr "'%s' を意図していたものとして継続します。"
 
 #: help.c:558
 #, c-format
 msgid "Continuing in %0.1f seconds, assuming that you meant '%s'."
-msgstr ""
+msgstr "%0.1f 秒後に '%s' を意図していたものとして継続します。"
 
 #: help.c:566
 #, c-format
 msgid "git: '%s' is not a git command. See 'git --help'."
-msgstr ""
+msgstr "git: '%s' は git のコマンドではありません。'git --help' を参照してください。"
 
 #: help.c:570
 msgid ""
@@ -2095,16 +2095,16 @@ msgid ""
 msgid_plural ""
 "\n"
 "The most similar commands are"
-msgstr[0] ""
+msgstr[0] "\n名前の似ているコマンドは"
 
 #: help.c:585
 msgid "git version [<options>]"
-msgstr ""
+msgstr "git version [<オプション>]"
 
 #: help.c:652
 #, c-format
 msgid "%s: %s - %s"
-msgstr ""
+msgstr "%s: %s - %s"
 
 #: help.c:656
 msgid ""
@@ -2113,7 +2113,7 @@ msgid ""
 msgid_plural ""
 "\n"
 "Did you mean one of these?"
-msgstr[0] ""
+msgstr[0] "\nこれのつもりでしたか？"
 
 #: ident.c:342
 msgid ""
@@ -2129,47 +2129,58 @@ msgid ""
 "Omit --global to set the identity only in this repository.\n"
 "\n"
 msgstr ""
+"\n"
+"*** メールアドレスと名前を設定してください。\n"
+"\n"
+"次のコマンド\n"
+"\n"
+"  git config --global user.email \"you@example.com\"\n"
+"  git config --global user.name \"Your Name\"\n"
+"\n"
+"を実行してデフォルトで使われる情報を設定できます。\n"
+"このレポジトリだけの設定にするには --global を外してください。\n"
+"\n"
 
 #: ident.c:366
 msgid "no email was given and auto-detection is disabled"
-msgstr ""
+msgstr "メールアドレスが指定されず、自動検出は無効です"
 
 #: ident.c:371
 #, c-format
 msgid "unable to auto-detect email address (got '%s')"
-msgstr ""
+msgstr "メールアドレスを自動検出できませんでした (得られたのは '%s')"
 
 #: ident.c:381
 msgid "no name was given and auto-detection is disabled"
-msgstr ""
+msgstr "名前が与えられる自動検出が無効です"
 
 #: ident.c:387
 #, c-format
 msgid "unable to auto-detect name (got '%s')"
-msgstr ""
+msgstr "名前を自動検出できませんでした (得られたのは '%s')"
 
 #: ident.c:395
 #, c-format
 msgid "empty ident name (for <%s>) not allowed"
-msgstr ""
+msgstr "%s に対応する名前が空なのは許容されません"
 
 #: ident.c:401
 #, c-format
 msgid "name consists only of disallowed characters: %s"
-msgstr ""
+msgstr "名前に使えない文字が含まれています: %s"
 
 #: ident.c:416 builtin/commit.c:587
 #, c-format
 msgid "invalid date format: %s"
-msgstr ""
+msgstr "不正な日付のフォーマットです: %s"
 
 #: list-objects-filter-options.c:36
 msgid "multiple filter-specs cannot be combined"
-msgstr ""
+msgstr "複数の filter-spec は 一緒に指定できません"
 
 #: list-objects-filter-options.c:126
 msgid "cannot change partial clone promisor remote"
-msgstr ""
+msgstr "部分 clone のため不足時に取得する(promisor)リモートを変更できません"
 
 #: lockfile.c:151
 #, c-format
@@ -2182,102 +2193,109 @@ msgid ""
 "may have crashed in this repository earlier:\n"
 "remove the file manually to continue."
 msgstr ""
+"ロックファイル '%s.lock' を作成できません: %s.\n"
+"\n"
+"このレポジトリで別の git 関連のプロセスが動いてないでしょうか。\n"
+"例えば 'git commit' で開いたエディタなどです。\n"
+"プロセスを終了してからやり直してください。\n"
+"もし、それでも失敗するようなら以前 git プロセスが異常終了して、\n"
+"ロックファイルが残ってしまった可能性があるので、手動で削除してください。"
 
 #: lockfile.c:159
 #, c-format
 msgid "Unable to create '%s.lock': %s"
-msgstr ""
+msgstr "ロックファイル '%s.lock' を作成できません: %s"
 
 #: merge.c:71
 msgid "failed to read the cache"
-msgstr ""
+msgstr "キャッシュを読み込めませんでした"
 
 #: merge.c:136 builtin/am.c:1946 builtin/am.c:1980 builtin/checkout.c:378
 #: builtin/checkout.c:606 builtin/clone.c:761
 msgid "unable to write new index file"
-msgstr ""
+msgstr "新しい index ファイルに書きこめませんでした"
 
 #: merge-recursive.c:298
 msgid "(bad commit)\n"
-msgstr ""
+msgstr "(不正なコミット)\n"
 
 #: merge-recursive.c:320
 #, c-format
 msgid "add_cacheinfo failed for path '%s'; merge aborting."
-msgstr ""
+msgstr "'%s' に対して add_cacheinfo が失敗しました; マージを中止します。"
 
 #: merge-recursive.c:328
 #, c-format
 msgid "add_cacheinfo failed to refresh for path '%s'; merge aborting."
-msgstr ""
+msgstr "'%s' を add_cacheinfo でリフレッシュするのに失敗しました; マージを中止します。"
 
 #: merge-recursive.c:410
 msgid "error building trees"
-msgstr ""
+msgstr "ツリー構築中にエラー"
 
 #: merge-recursive.c:881
 #, c-format
 msgid "failed to create path '%s'%s"
-msgstr ""
+msgstr "ディレクトリ '%s' の作成に失敗しました%s"
 
 #: merge-recursive.c:892
 #, c-format
 msgid "Removing %s to make room for subdirectory\n"
-msgstr ""
+msgstr "サブディレクトリのための空きを作るために %s を削除します\n"
 
 #: merge-recursive.c:906 merge-recursive.c:925
 msgid ": perhaps a D/F conflict?"
-msgstr ""
+msgstr ": ディレクトリかファイルが衝突していませんか？"
 
 #: merge-recursive.c:915
 #, c-format
 msgid "refusing to lose untracked file at '%s'"
-msgstr ""
+msgstr "トラックしていないファイル '%s' を削除しません"
 
 #: merge-recursive.c:957 builtin/cat-file.c:37
 #, c-format
 msgid "cannot read object %s '%s'"
-msgstr ""
+msgstr "オブジェクト %s '%s' が読めません"
 
 #: merge-recursive.c:959
 #, c-format
 msgid "blob expected for %s '%s'"
-msgstr ""
+msgstr "%s '%s' には blob が期待されています"
 
 #: merge-recursive.c:983
 #, c-format
 msgid "failed to open '%s': %s"
-msgstr ""
+msgstr "'%s' をオープンできません: %s"
 
 #: merge-recursive.c:994
 #, c-format
 msgid "failed to symlink '%s': %s"
-msgstr ""
+msgstr "シンボリックリンク '%s' を作成できません: %s"
 
 #: merge-recursive.c:999
 #, c-format
 msgid "do not know what to do with %06o %s '%s'"
-msgstr ""
+msgstr "%06o %s '%s' に対して何をすればいいかわかりません"
 
 #: merge-recursive.c:1186
 #, c-format
 msgid "Failed to merge submodule %s (not checked out)"
-msgstr ""
+msgstr "submodule %s がマージできません (checkoutしていません)"
 
 #: merge-recursive.c:1193
 #, c-format
 msgid "Failed to merge submodule %s (commits not present)"
-msgstr ""
+msgstr "submodule %s がマージできません (コミットがありません)"
 
 #: merge-recursive.c:1200
 #, c-format
 msgid "Failed to merge submodule %s (commits don't follow merge-base)"
-msgstr ""
+msgstr "submodule %s がマージできません (コミットが merge-base をフォローしていません)"
 
 #: merge-recursive.c:1208 merge-recursive.c:1220
 #, c-format
 msgid "Fast-forwarding submodule %s to the following commit:"
-msgstr ""
+msgstr "サブモジュール %s をつぎのコミットに fast-forward します"
 
 #: merge-recursive.c:1211 merge-recursive.c:1223
 #, c-format
@@ -2287,7 +2305,7 @@ msgstr "サブモジュール %s を fast-forward します"
 #: merge-recursive.c:1245
 #, c-format
 msgid "Failed to merge submodule %s (merge following commits not found)"
-msgstr ""
+msgstr "submodule %s をマージできません (マージするコミットが見つかりません)"
 
 #: merge-recursive.c:1249
 #, c-format

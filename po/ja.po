@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2018-06-16 22:06+0800\n"
-"PO-Revision-Date: 2018-11-03 13:30+0900\n"
+"PO-Revision-Date: 2018-12-02 13:44+0900\n"
 "Last-Translator: Hiroshi Takekawa <sian@big.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -2560,30 +2560,30 @@ msgstr "既に最新です!"
 #: merge-recursive.c:3280
 #, c-format
 msgid "merging of trees %s and %s failed"
-msgstr ""
+msgstr "%s と %s のマージに失敗しました"
 
 #: merge-recursive.c:3379
 msgid "Merging:"
-msgstr ""
+msgstr "マージ中:"
 
 #: merge-recursive.c:3392
 #, c-format
 msgid "found %u common ancestor:"
 msgid_plural "found %u common ancestors:"
-msgstr[0] ""
+msgstr[0] "履歴上共通の以前のコミットを %u 個見つけました:"
 
 #: merge-recursive.c:3431
 msgid "merge returned no commit"
-msgstr ""
+msgstr "マージしようとしましたがコミットがありませんでした"
 
 #: merge-recursive.c:3495
 #, c-format
 msgid "Could not parse object '%s'"
-msgstr ""
+msgstr "オブジェクト '%s' を解釈できません"
 
 #: merge-recursive.c:3511 builtin/merge.c:659 builtin/merge.c:816
 msgid "Unable to write index."
-msgstr ""
+msgstr "index に書き込めません。"
 
 #: notes-merge.c:272
 #, c-format
@@ -2592,25 +2592,27 @@ msgid ""
 "Please, use 'git notes merge --commit' or 'git notes merge --abort' to "
 "commit/abort the previous merge before you start a new notes merge."
 msgstr ""
+"notes マージを解決していません (%s があります)。\n"
+"'git notes merge --commit' か 'git notes merge --abort' を使って、新たなマージの前に以前しようとしたマージをコミットするか中止してください。"
 
 #: notes-merge.c:279
 #, c-format
 msgid "You have not concluded your notes merge (%s exists)."
-msgstr ""
+msgstr "notes のマージが完了していません (%s があります)。"
 
 #: notes-utils.c:43
 msgid "Cannot commit uninitialized/unreferenced notes tree"
-msgstr ""
+msgstr "初期化されていないか参照されていない notes tree をコミットできません"
 
 #: notes-utils.c:102
 #, c-format
 msgid "Bad notes.rewriteMode value: '%s'"
-msgstr ""
+msgstr "notes.rewriteMode の値が不正です: '%s'"
 
 #: notes-utils.c:112
 #, c-format
 msgid "Refusing to rewrite notes in %s (outside of refs/notes/)"
-msgstr ""
+msgstr "%s の notes の再書き込みを拒否します (refs/notes/ の外で)"
 
 #. TRANSLATORS: The first %s is the name of
 #. the environment variable, the second %s is
@@ -2619,35 +2621,35 @@ msgstr ""
 #: notes-utils.c:142
 #, c-format
 msgid "Bad %s value: '%s'"
-msgstr ""
+msgstr "%s は不正な値です: '%s'"
 
 #: object.c:242
 #, c-format
 msgid "unable to parse object: %s"
-msgstr ""
+msgstr "オブジェクトを解釈できません: %s"
 
 #: packfile.c:563
 msgid "offset before end of packfile (broken .idx?)"
-msgstr ""
+msgstr "オフセットが packfile の終了より前になっています (.idx が壊れているかもしれません)"
 
 #: packfile.c:1742
 #, c-format
 msgid "offset before start of pack index for %s (corrupt index?)"
-msgstr ""
+msgstr "オフセットが %s のpack index の開始より前です (index が壊れているかもしれません)"
 
 #: packfile.c:1746
 #, c-format
 msgid "offset beyond end of pack index for %s (truncated index?)"
-msgstr ""
+msgstr "オフセットが %s の pack index の終わりを越えています (index が途中で切れてしまったかもしれません)"
 
 #: parse-options.c:621
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: parse-options.c:640
 #, c-format
 msgid "usage: %s"
-msgstr ""
+msgstr "使い方: %s"
 
 #. TRANSLATORS: the colon here should align with the
 #. one in "usage: %s" translation.
@@ -2655,21 +2657,21 @@ msgstr ""
 #: parse-options.c:646
 #, c-format
 msgid "   or: %s"
-msgstr ""
+msgstr "   あるいは: %s"
 
 #: parse-options.c:649
 #, c-format
 msgid "    %s"
-msgstr ""
+msgstr "    %s"
 
 #: parse-options.c:688
 msgid "-NUM"
-msgstr ""
+msgstr "-数字"
 
 #: parse-options-cb.c:44
 #, c-format
 msgid "malformed expiration date '%s'"
-msgstr ""
+msgstr "期限の表現がおかしいです '%s'"
 
 #: parse-options-cb.c:112
 #, c-format

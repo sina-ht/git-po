@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2018-12-02 10:55+0800\n"
-"PO-Revision-Date: 2018-12-19 20:52+0900\n"
+"PO-Revision-Date: 2019-01-03 11:59+0900\n"
 "Last-Translator: Hiroshi Takekawa <sian@big.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -652,7 +652,7 @@ msgstr "現在の index に対してパッチが適用可能か確認します"
 
 #: apply.c:4982
 msgid "mark new files with `git add --intent-to-add`"
-msgstr ""
+msgstr "`git add --intent-to-add` で新しいファイルをマークします"
 
 #: apply.c:4984
 msgid "apply a patch without touching the working tree"
@@ -860,7 +860,7 @@ msgstr "blob %s を読みこめません"
 #: archive-tar.c:260 archive-zip.c:363
 #, c-format
 msgid "unsupported file mode: 0%o (SHA1: %s)"
-msgstr ""
+msgstr "サポートしていないファイルモード(パーミッション): 0%o (SHA1: %s)"
 
 #: archive-tar.c:287 archive-zip.c:353
 #, c-format
@@ -879,27 +879,27 @@ msgstr "descriptor をリダイレクトできません"
 #: archive-tar.c:468
 #, c-format
 msgid "'%s' filter reported error"
-msgstr ""
+msgstr "'%s' フィルタがエラーを返しました"
 
 #: archive-zip.c:314
 #, c-format
 msgid "path is not valid UTF-8: %s"
-msgstr ""
+msgstr "パスが UTF-8 として不正です: %s"
 
 #: archive-zip.c:318
 #, c-format
 msgid "path too long (%d chars, SHA1: %s): %s"
-msgstr ""
+msgstr "パスが長すぎます (%d 文字, SHA1: %s): %s"
 
 #: archive-zip.c:474 builtin/pack-objects.c:224 builtin/pack-objects.c:227
 #, c-format
 msgid "deflate error (%d)"
-msgstr ""
+msgstr "圧縮に失敗しました (%d)"
 
 #: archive-zip.c:609
 #, c-format
 msgid "timestamp too large for this system: %<PRIuMAX>"
-msgstr ""
+msgstr "タイムスタンプの値がこのシステムでは大きすぎます: %<PRIuMAX>"
 
 #: attr.c:212
 #, c-format
@@ -1335,22 +1335,22 @@ msgstr ""
 #: commit.c:1115
 #, c-format
 msgid "Commit %s has an untrusted GPG signature, allegedly by %s."
-msgstr ""
+msgstr "commit %s は信頼されていない GPG 署名が %s によりされています."
 
 #: commit.c:1118
 #, c-format
 msgid "Commit %s has a bad GPG signature allegedly by %s."
-msgstr ""
+msgstr "commit %s は %s によって検証できない GPG 署名がされています。"
 
 #: commit.c:1121
 #, c-format
 msgid "Commit %s does not have a GPG signature."
-msgstr ""
+msgstr "commit %s は GPG 署名されていません。"
 
 #: commit.c:1124
 #, c-format
 msgid "Commit %s has a good GPG signature by %s\n"
-msgstr ""
+msgstr "commit %s は良い GPG 署名を %s によってされています\n"
 
 #: commit.c:1378
 msgid ""
@@ -1366,32 +1366,32 @@ msgstr ""
 #: commit-graph.c:108
 #, c-format
 msgid "graph file %s is too small"
-msgstr ""
+msgstr "graph ファイル %s が小さすぎます"
 
 #: commit-graph.c:115
 #, c-format
 msgid "graph signature %X does not match signature %X"
-msgstr ""
+msgstr "graph 署名 %X は署名 %X と一致しません"
 
 #: commit-graph.c:122
 #, c-format
 msgid "graph version %X does not match version %X"
-msgstr ""
+msgstr "graph バージョン %X がバージョン %X と一致しません"
 
 #: commit-graph.c:129
 #, c-format
 msgid "hash version %X does not match version %X"
-msgstr ""
+msgstr "hash バージョン %X がバージョン %X と一致しません"
 
 #: commit-graph.c:153
 #, c-format
 msgid "improper chunk offset %08x%08x"
-msgstr ""
+msgstr "chunk のオフセット %08x%08x　が不正です"
 
 #: commit-graph.c:189
 #, c-format
 msgid "chunk id %08x appears multiple times"
-msgstr ""
+msgstr "chunk id %08x が複数あるようです"
 
 #: commit-graph.c:308
 #, c-format
@@ -1409,7 +1409,7 @@ msgstr "グラフ中の commit に注釈をつけています"
 
 #: commit-graph.c:691
 msgid "Computing commit graph generation numbers"
-msgstr ""
+msgstr "commit graph の世代を計算しています"
 
 #: commit-graph.c:803 commit-graph.c:826 commit-graph.c:852
 msgid "Finding commits for commit graph"
@@ -1423,7 +1423,7 @@ msgstr "オブジェクトを追加できません: %s"
 #: commit-graph.c:814
 #, c-format
 msgid "error opening index for %s"
-msgstr ""
+msgstr "%s の index をオープンできません"
 
 #: commit-graph.c:868
 #, c-format
@@ -1441,7 +1441,7 @@ msgstr "ディレクトリ %s を作成できませんでした"
 
 #: commit-graph.c:1002
 msgid "the commit-graph file has incorrect checksum and is likely corrupt"
-msgstr ""
+msgstr "commit-grach ファイルのチェックサムが合わないので、おそらく破損しています"
 
 #: commit-graph.c:1046
 msgid "Verifying commits in commit graph"

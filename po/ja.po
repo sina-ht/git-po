@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2019-02-15 10:09+0800\n"
-"PO-Revision-Date: 2019-03-09 16:10+0900\n"
+"PO-Revision-Date: 2019-04-07 08:38+0900\n"
 "Last-Translator: Hiroshi Takekawa <sian@big.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -107,11 +107,11 @@ msgstr ""
 
 #: alias.c:50
 msgid "cmdline ends with \\"
-msgstr ""
+msgstr "コマンドラインが \\ で終わっています"
 
 #: alias.c:51
 msgid "unclosed quote"
-msgstr ""
+msgstr "引用符が閉じていません"
 
 #: apply.c:59
 #, c-format
@@ -786,7 +786,7 @@ msgstr "ツリーオブジェクトではありません: %s"
 
 #: archive.c:424
 msgid "current working directory is untracked"
-msgstr ""
+msgstr "カレントワーキングディレクトリはトラックされていません"
 
 #: archive.c:455
 msgid "fmt"
@@ -1418,7 +1418,7 @@ msgstr "hash バージョン %X がバージョン %X と一致しません"
 
 #: commit-graph.c:173
 msgid "chunk lookup table entry missing; graph file may be incomplete"
-msgstr ""
+msgstr "チャンクの検索テーブルのエントリがありません。graph は不完全になるかもしれません。"
 
 #: commit-graph.c:184
 #, c-format
@@ -1508,7 +1508,7 @@ msgstr "ディレクトリ %s を作成できませんでした"
 #, c-format
 msgid "Writing out commit graph in %d pass"
 msgid_plural "Writing out commit graph in %d passes"
-msgstr[0] ""
+msgstr[0] "commit グラフを %d パスで書き出しています"
 
 #: commit-graph.c:1109
 msgid "the commit-graph file has incorrect checksum and is likely corrupt"
@@ -1517,7 +1517,7 @@ msgstr ""
 
 #: commit-graph.c:1153
 msgid "Verifying commits in commit graph"
-msgstr ""
+msgstr "commit グラフ中の commit を検証しています"
 
 #: compat/obstack.c:406 compat/obstack.c:408
 msgid "memory exhausted"
@@ -1532,6 +1532,11 @@ msgid ""
 "\t%s\n"
 "This might be due to circular includes."
 msgstr ""
+"include の深さが最大値 (%d) を超えました。\n"
+"\t%s\n"
+"から\n"
+"\t%s を読みこもうとしていました。\n"
+"もしかしたら循環しているかもしれません。"
 
 #: config.c:139
 #, c-format
@@ -1549,17 +1554,17 @@ msgstr "相対的な設定がファイルから得るべき条件を含んでい
 #: config.c:348
 #, c-format
 msgid "key does not contain a section: %s"
-msgstr ""
+msgstr "キーがセクションを含んでいません: %s"
 
 #: config.c:354
 #, c-format
 msgid "key does not contain variable name: %s"
-msgstr ""
+msgstr "キーが変数名を含んでいません: %s"
 
 #: config.c:378 sequencer.c:2330
 #, c-format
 msgid "invalid key: %s"
-msgstr ""
+msgstr "不正なキー: %s"
 
 #: config.c:384
 #, c-format
@@ -1569,12 +1574,12 @@ msgstr "不正なキーです(行末): %s"
 #: config.c:420 config.c:432
 #, c-format
 msgid "bogus config parameter: %s"
-msgstr ""
+msgstr "おかしなコンフィグパラメータ: %s"
 
 #: config.c:467
 #, c-format
 msgid "bogus format in %s"
-msgstr ""
+msgstr "%s のフォーマットがおかしいです"
 
 #: config.c:793
 #, c-format
@@ -1662,7 +1667,7 @@ msgstr "'%s' は '%s' に対して不正なタイムスタンプです"
 #: config.c:1173
 #, c-format
 msgid "abbrev length out of range: %d"
-msgstr ""
+msgstr "短縮長が範囲外: %d"
 
 #: config.c:1187 config.c:1198
 #, c-format
@@ -1671,7 +1676,7 @@ msgstr "%d は不正な zlib 圧縮レベルです"
 
 #: config.c:1290
 msgid "core.commentChar should only be one character"
-msgstr ""
+msgstr "core.commentChar は一文字にしてください"
 
 #: config.c:1323
 #, c-format
@@ -1686,11 +1691,11 @@ msgstr "'%s' の値がおかしいです"
 #: config.c:1421
 #, c-format
 msgid "malformed value for %s: %s"
-msgstr ""
+msgstr "%s に対する値がおかしいです: %s"
 
 #: config.c:1422
 msgid "must be one of nothing, matching, simple, upstream or current"
-msgstr ""
+msgstr "nothing, matching, simple, upstream, current のうちの一つでなければいけません"
 
 #: config.c:1481 builtin/pack-objects.c:3394
 #, c-format
@@ -1705,7 +1710,7 @@ msgstr "config blob オブジェクト '%s' を読み込めません"
 #: config.c:1605
 #, c-format
 msgid "reference '%s' does not point to a blob"
-msgstr ""
+msgstr "reference '%s' が blob を指していません"
 
 #: config.c:1622
 #, c-format
@@ -1855,16 +1860,16 @@ msgstr "サーバが feature '%s' をサポートしていません"
 
 #: connect.c:114
 msgid "expected flush after capabilities"
-msgstr ""
+msgstr "capabilities の後には flush が来るべきです"
 
 #: connect.c:233
 #, c-format
 msgid "ignoring capabilities after first line '%s'"
-msgstr ""
+msgstr "最初の行 '%s' の後の capabilities を無視します"
 
 #: connect.c:252
 msgid "protocol error: unexpected capabilities^{}"
-msgstr ""
+msgstr "プロトコルエラー: 予期しない capabilities^{}"
 
 #: connect.c:273
 #, c-format
@@ -1874,7 +1879,7 @@ msgstr ""
 
 #: connect.c:275
 msgid "repository on the other end cannot be shallow"
-msgstr ""
+msgstr "相手側のレポジトリが shallow であってはいけません"
 
 #: connect.c:313
 msgid "invalid packet"
@@ -1892,16 +1897,16 @@ msgstr "ls-refs の応答が不正です: %s"
 
 #: connect.c:445
 msgid "expected flush after ref listing"
-msgstr ""
+msgstr "ref リストの後は flush が続くべきです"
 
 #: connect.c:544
 #, c-format
 msgid "protocol '%s' is not supported"
-msgstr ""
+msgstr "プロトコル '%s' をサポートしていません"
 
 #: connect.c:595
 msgid "unable to set SO_KEEPALIVE on socket"
-msgstr ""
+msgstr "ソケットに SO_KEEPALIVE オプションを設定できません"
 
 #: connect.c:635 connect.c:698
 #, c-format
@@ -1920,6 +1925,8 @@ msgid ""
 "done.\n"
 "Connecting to %s (port %s) ... "
 msgstr ""
+"解決完了。\n"
+"%s (ポート %s) に接続中... "
 
 #: connect.c:665 connect.c:742
 #, c-format
@@ -1948,12 +1955,12 @@ msgstr "%s は未知のポートです"
 #: connect.c:845 connect.c:1171
 #, c-format
 msgid "strange hostname '%s' blocked"
-msgstr ""
+msgstr "奇妙なホスト名 '%s' をブロックしました"
 
 #: connect.c:847
 #, c-format
 msgid "strange port '%s' blocked"
-msgstr ""
+msgstr "奇妙なポート '%s' をブロックしました"
 
 #: connect.c:857
 #, c-format

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2019-02-15 10:09+0800\n"
-"PO-Revision-Date: 2019-04-07 08:38+0900\n"
+"PO-Revision-Date: 2019-04-14 16:52+0900\n"
 "Last-Translator: Hiroshi Takekawa <sian@big.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1969,24 +1969,24 @@ msgstr "プロクシ %s に接続を開始できません"
 
 #: connect.c:924
 msgid "no path specified; see 'git help pull' for valid url syntax"
-msgstr ""
+msgstr "パスが指定されていません。正しいURLの形式は 'git help pull' を参照してください"
 
 #: connect.c:1119
 msgid "ssh variant 'simple' does not support -4"
-msgstr ""
+msgstr "ssh 対応の 'simple' 版では -4 をサポートしていません"
 
 #: connect.c:1131
 msgid "ssh variant 'simple' does not support -6"
-msgstr ""
+msgstr "ssh 対応の 'simple' 版では -6 をサポートしていません"
 
 #: connect.c:1148
 msgid "ssh variant 'simple' does not support setting port"
-msgstr ""
+msgstr "ssh 対応の 'simple' 版ではポートの指定をサポートしていません"
 
 #: connect.c:1259
 #, c-format
 msgid "strange pathname '%s' blocked"
-msgstr ""
+msgstr "おかしなパス名 '%s' はブロックされました"
 
 #: connect.c:1304
 msgid "unable to fork"
@@ -2011,7 +2011,7 @@ msgstr "rev-list の標準入力をクローズできませんでした"
 #: convert.c:193
 #, c-format
 msgid "illegal crlf_action %d"
-msgstr ""
+msgstr "不正な crlf_action %d です"
 
 #: convert.c:206
 #, c-format
@@ -2093,32 +2093,32 @@ msgstr "外部フィルタ '%s' に情報を入力できません"
 #: convert.c:700
 #, c-format
 msgid "external filter '%s' failed %d"
-msgstr ""
+msgstr "外部フィルタ '%s' でエラー %d"
 
 #: convert.c:735 convert.c:738
 #, c-format
 msgid "read from external filter '%s' failed"
-msgstr ""
+msgstr "外部フィルタ '%s' からの読みとりでエラー"
 
 #: convert.c:741 convert.c:796
 #, c-format
 msgid "external filter '%s' failed"
-msgstr ""
+msgstr "外部フィルタ '%s' でエラー"
 
 #: convert.c:844
 msgid "unexpected filter type"
-msgstr ""
+msgstr "予期しないフィルタタイプ"
 
 #: convert.c:855
 msgid "path name too long for external filter"
-msgstr ""
+msgstr "外部フィルタのパス名が長過ぎます"
 
 #: convert.c:929
 #, c-format
 msgid ""
 "external filter '%s' is not available anymore although not all paths have "
 "been filtered"
-msgstr ""
+msgstr "全てのパスがフィルタし終わっていませんが、外部フィルタ '%s' が途中で終了しました"
 
 #: convert.c:1228
 msgid "true/false are no valid working-tree-encodings"
@@ -2127,12 +2127,12 @@ msgstr "true/false は working-tree-encodings に使える値ではありませ�
 #: convert.c:1398 convert.c:1432
 #, c-format
 msgid "%s: clean filter '%s' failed"
-msgstr ""
+msgstr "%s: clean フィルタ '%s' でエラー"
 
 #: convert.c:1476
 #, c-format
 msgid "%s: smudge filter %s failed"
-msgstr ""
+msgstr "%s: smudge フィルタ %s でエラー"
 
 #: date.c:137
 msgid "in the future"
@@ -2195,7 +2195,7 @@ msgstr[0] "%<PRIuMAX> 年前"
 
 #: delta-islands.c:272
 msgid "Propagating island marks"
-msgstr ""
+msgstr "island marks の伝搬中"
 
 #: delta-islands.c:290
 #, c-format
@@ -2210,12 +2210,12 @@ msgstr "'%s' の island 正規表現を読み込めません: %s"
 #: delta-islands.c:390
 #, c-format
 msgid "island regex from config has too many capture groups (max=%d)"
-msgstr ""
+msgstr "コンフィグの island の正規表現では capture groups が多過ぎます (最大=%d)"
 
 #: delta-islands.c:466
 #, c-format
 msgid "Marked %d islands, done.\n"
-msgstr ""
+msgstr "%d islands マーク完了。\n"
 
 #: diffcore-order.c:24
 #, c-format
@@ -2254,13 +2254,13 @@ msgstr ""
 msgid ""
 "unknown color-moved-ws mode '%s', possible values are 'ignore-space-change', "
 "'ignore-space-at-eol', 'ignore-all-space', 'allow-indentation-change'"
-msgstr ""
+msgstr "'%s' は不明な color-moved-ws モードです。使えるのは 'ignore-space-change', 'ignore-space-at-eol', 'ignore-all-space', 'allow-indentation-change' です。"
 
 #: diff.c:327
 msgid ""
 "color-moved-ws: allow-indentation-change cannot be combined with other "
 "whitespace modes"
-msgstr ""
+msgstr "color-moved-ws: allow-indentation-change は他のホワイトスペースモードと組み合わせられません"
 
 #: diff.c:400
 #, c-format
@@ -2333,7 +2333,7 @@ msgstr "pathspec '%s' マッチするファイルがありません"
 #: dir.c:927
 #, c-format
 msgid "cannot use %s as an exclude file"
-msgstr ""
+msgstr "%s を除外ファイルとして使えません"
 
 #: dir.c:1842
 #, c-format
@@ -2353,7 +2353,7 @@ msgstr ""
 #: dir.c:3009
 #, c-format
 msgid "index file corrupt in repo %s"
-msgstr ""
+msgstr "レポジトリ %s の index ファイルが破損"
 
 #: dir.c:3054 dir.c:3059
 #, c-format
@@ -2382,7 +2382,7 @@ msgstr "ファイル '%s' を stat() できませんでした"
 #: environment.c:150
 #, c-format
 msgid "bad git namespace path \"%s\""
-msgstr ""
+msgstr "\"%s\" は git の名前空間のパスとして不適当です"
 
 #: environment.c:332
 #, c-format
@@ -2392,7 +2392,7 @@ msgstr "'%s' に GIT_DIR を設定できませんでした"
 #: exec-cmd.c:361
 #, c-format
 msgid "too many args to run %s"
-msgstr ""
+msgstr "%s を実行するのに引数が多過ぎます"
 
 #: fetch-object.c:17
 msgid "Remote with no URL"
@@ -2577,7 +2577,7 @@ msgstr "サーバが shallow リクエストをサポートしていません"
 #: fetch-pack.c:1184
 #, c-format
 msgid "error reading section header '%s'"
-msgstr ""
+msgstr "セクションヘッダ '%s' を読み込み中にエラー"
 
 #: fetch-pack.c:1190
 #, c-format
@@ -2587,25 +2587,25 @@ msgstr "'%s' を受けとるものと思ってましたが '%s' を受けとり�
 #: fetch-pack.c:1229
 #, c-format
 msgid "unexpected acknowledgment line: '%s'"
-msgstr ""
+msgstr "予期しない acknowledgment です: '%s'"
 
 #: fetch-pack.c:1234
 #, c-format
 msgid "error processing acks: %d"
-msgstr ""
+msgstr "acks を処理中にエラー: %d"
 
 #: fetch-pack.c:1244
 msgid "expected packfile to be sent after 'ready'"
-msgstr ""
+msgstr "'ready' の後は packfile が送られてくることを期待しています"
 
 #: fetch-pack.c:1246
 msgid "expected no other sections to be sent after no 'ready'"
-msgstr ""
+msgstr "'ready' が無いので他のセクションを受けつけません"
 
 #: fetch-pack.c:1287
 #, c-format
 msgid "error processing shallow info: %d"
-msgstr ""
+msgstr "shallow info を処理中にエラー: %d"
 
 #: fetch-pack.c:1308
 #, c-format

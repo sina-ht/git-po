@@ -1,14 +1,14 @@
 # Japanese translations for Git.
-# Copyright (C) 2018 Hiroshi Takekawa <sian@big.or.jp>
+# Copyright (C) 2018-2019 Hiroshi Takekawa <sian@big.or.jp>
 # This file is distributed under the same license as the Git package.
-# Hiroshi Takekawa <sian@big.or.jp>, 2018.
+# Hiroshi Takekawa <sian@big.or.jp>, 2018-2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2019-02-15 10:09+0800\n"
-"PO-Revision-Date: 2019-04-14 16:52+0900\n"
+"PO-Revision-Date: 2019-06-04 20:24+0900\n"
 "Last-Translator: Hiroshi Takekawa <sian@big.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -2615,12 +2615,12 @@ msgstr "wanted-ref であるべきところで %s を受けとりました"
 #: fetch-pack.c:1318
 #, c-format
 msgid "unexpected wanted-ref: '%s'"
-msgstr ""
+msgstr "予期しない wanted-ref: '%s'"
 
 #: fetch-pack.c:1322
 #, c-format
 msgid "error processing wanted refs: %d"
-msgstr ""
+msgstr "wanted refs を処理中にエラー: %d"
 
 #: fetch-pack.c:1646
 msgid "no matching remote head"
@@ -2628,7 +2628,7 @@ msgstr "マッチするリモートの head がありません"
 
 #: fetch-pack.c:1664 builtin/clone.c:671
 msgid "remote did not send all necessary objects"
-msgstr ""
+msgstr "リモートが必要なオブジェクトを全部送ってきませんでした"
 
 #: fetch-pack.c:1690
 #, c-format
@@ -2750,15 +2750,15 @@ msgstr "よくある Git のガイド:"
 
 #: help.c:519
 msgid "See 'git help <command>' to read about a specific subcommand"
-msgstr ""
+msgstr "'git help <command>' で各コマンドの詳しい内容をお読みください"
 
 #: help.c:524
 msgid "External commands"
-msgstr ""
+msgstr "外部コマンド"
 
 #: help.c:539
 msgid "Command aliases"
-msgstr ""
+msgstr "エイリアス"
 
 #: help.c:603
 #, c-format
@@ -2890,7 +2890,7 @@ msgstr "複数の filter-spec は 一緒に指定できません"
 
 #: list-objects-filter-options.c:58
 msgid "expected 'tree:<depth>'"
-msgstr ""
+msgstr "'tree:<depth>' を与えてください"
 
 #: list-objects-filter-options.c:152
 msgid "cannot change partial clone promisor remote"
@@ -3301,6 +3301,8 @@ msgid ""
 "Your local changes to the following files would be overwritten by merge:\n"
 "  %s"
 msgstr ""
+"手元の変更はマージにより上書きされるでしょう:\n"
+"  %s"
 
 #: merge-recursive.c:3428
 msgid "Already up to date!"
@@ -3337,64 +3339,64 @@ msgstr "index に書き込めません。"
 #: midx.c:65
 #, c-format
 msgid "multi-pack-index file %s is too small"
-msgstr ""
+msgstr "multi-pack-index ファイル %s が小さすぎます"
 
 #: midx.c:81
 #, c-format
 msgid "multi-pack-index signature 0x%08x does not match signature 0x%08x"
-msgstr ""
+msgstr "multi-pack-index のシグネチャ 0x%08x がシグネチャ 0x%08x と合いません"
 
 #: midx.c:86
 #, c-format
 msgid "multi-pack-index version %d not recognized"
-msgstr ""
+msgstr "multi-pack-index バージョン %d が認識できません"
 
 #: midx.c:91
 #, c-format
 msgid "hash version %u does not match"
-msgstr ""
+msgstr "ハッシュバージョン %u が合いません"
 
 #: midx.c:105
 msgid "invalid chunk offset (too large)"
-msgstr ""
+msgstr "不正なチャンクオフセット (大きすぎます)"
 
 #: midx.c:129
 msgid "terminating multi-pack-index chunk id appears earlier than expected"
-msgstr ""
+msgstr "multi-pack-index chunk id が想定より早く終わりになっているようです"
 
 #: midx.c:142
 msgid "multi-pack-index missing required pack-name chunk"
-msgstr ""
+msgstr "multi-pack-index に必要な pack-name チャンクがありません"
 
 #: midx.c:144
 msgid "multi-pack-index missing required OID fanout chunk"
-msgstr ""
+msgstr "multi-pack-index に必要な OID fanout チャンクがありません"
 
 #: midx.c:146
 msgid "multi-pack-index missing required OID lookup chunk"
-msgstr ""
+msgstr "multi-pack-index に必要な OID lookup チャンクがありません"
 
 #: midx.c:148
 msgid "multi-pack-index missing required object offsets chunk"
-msgstr ""
+msgstr "multi-pack-index に必要な object offsets チャンクがありません"
 
 #: midx.c:162
 #, c-format
 msgid "multi-pack-index pack names out of order: '%s' before '%s'"
-msgstr ""
+msgstr "multi-pack-index のパック名の順序がおかしいです: '%s' が '%s' の前にあります"
 
 #: midx.c:205
 #, c-format
 msgid "bad pack-int-id: %u (%u total packs)"
-msgstr ""
+msgstr "不良な pack-int-id: %u (全部で %u パック)"
 
 #: midx.c:246
 msgid "multi-pack-index stores a 64-bit offset, but off_t is too small"
-msgstr ""
+msgstr "multi-pack-index は 64 ビットのオフセットが必要で off_t では小さすぎます"
 
 #: midx.c:271
 msgid "error preparing packfile from multi-pack-index"
-msgstr ""
+msgstr "multi-pack-index から packfile を準備中にエラー"
 
 #: midx.c:407
 #, c-format
@@ -3420,12 +3422,12 @@ msgstr "multi-pack-index %s がクリアできません"
 #, c-format
 msgid ""
 "oid fanout out of order: fanout[%d] = %<PRIx32> > %<PRIx32> = fanout[%d]"
-msgstr ""
+msgstr "oid fanout の順序がおかしいです: fanout[%d] = %<PRIx32> > %<PRIx32> = fanout[%d]"
 
 #: midx.c:992
 #, c-format
 msgid "oid lookup out of order: oid[%d] = %s >= %s = oid[%d]"
-msgstr ""
+msgstr "oid 検索中におかしな順序がありました: oid[%d] = %s >= %s = oid[%d]"
 
 #: midx.c:996
 msgid "Verifying object offsets"
@@ -3444,7 +3446,7 @@ msgstr "packfile '%s' のための pack-index を読み込めません"
 #: midx.c:1019
 #, c-format
 msgid "incorrect object offset for oid[%d] = %s: %<PRIx64> != %<PRIx64>"
-msgstr ""
+msgstr "オブジェクトのオフセットが合っていません: oid[%d] = %s: %<PRIx64> != %<PRIx64>"
 
 #: name-hash.c:531
 #, c-format
@@ -3523,7 +3525,7 @@ msgstr "オブジェクトを解釈できません: %s"
 #: object.c:267 object.c:278
 #, c-format
 msgid "hash mismatch %s"
-msgstr ""
+msgstr "ハッシュが合っていません %s"
 
 #: packfile.c:607
 msgid "offset before end of packfile (broken .idx?)"
@@ -3553,12 +3555,12 @@ msgstr "オプション %s は値を取ります"
 #: parse-options.c:69
 #, c-format
 msgid "%s is incompatible with %s"
-msgstr ""
+msgstr "%s は %s と一緒に使えません"
 
 #: parse-options.c:74
 #, c-format
 msgid "%s : incompatible with something else"
-msgstr ""
+msgstr "%s : 何か一緒に使えないオプションが指定されています"
 
 #: parse-options.c:88 parse-options.c:92 parse-options.c:260
 #, c-format
@@ -3573,12 +3575,12 @@ msgstr "'%s' は使えません"
 #: parse-options.c:178
 #, c-format
 msgid "%s expects a numerical value"
-msgstr ""
+msgstr "%s は数値を引数として取ります"
 
 #: parse-options.c:194
 #, c-format
 msgid "%s expects a non-negative integer value with an optional k/m/g suffix"
-msgstr ""
+msgstr "%s は非負の整数値を受けとり、オプションとして k/m/g を付けることができます"
 
 #: parse-options.c:322
 #, c-format
